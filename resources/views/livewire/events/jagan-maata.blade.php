@@ -29,7 +29,7 @@
                 <div class="col-md-8 align-self-center">
                     <h2 class="fs-3">Good Morning Denduluru</h2>
                     <p class="">
-                    Good Morning Denduluru is a program designed by  Abbaya Chowdary ,MLA-Denduluru to visit the villages of Denduluru Constituency in the morning to interact with the people and to know about the ground level issues , and coordinating with the concerned officers to get the solution for those issues.
+                    Good Morning Denduluru is a program designed by  Abbaya Chowdary ,MLA-Denduluru to visit the villages of Denduluru Constituency in the morning to interact with the people and to know about the ground level issues , and co-ordinating with the concerned officers to get the solution for those issues.
 
                     </p>
                     <p>Main purpose of this program is to solve or identify the solution for the issues on spot by coordinating with officials.</p>
