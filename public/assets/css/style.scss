@@ -100,7 +100,13 @@ $newColor: #0dcaf0;
     }
   }
 }
-
+// #body{
+//     background-image: url("../images/backtest.png");
+//     background-repeat: no-repeat;
+//   background-position: center;
+//   background-size: cover;
+//   background-attachment: fixed;
+// }
 #banner {
   .carousel-indicators [data-bs-target] {
     background-color: $primaryColor;

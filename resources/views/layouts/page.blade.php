@@ -50,7 +50,7 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
-                Events <br> <span class="sub">Upcoming Events</span>
+                Events <br> <span class="sub">Ongoing Events</span>
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="{{route('goodmorning')}}">GADAPA GADAPAKU MANA PRABHUTVAM </a></li>

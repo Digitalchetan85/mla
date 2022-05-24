@@ -50,7 +50,7 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
-                Events <br> <span class="sub">Upcoming Events</span>
+                Events <br> <span class="sub">Ongoing Events</span>
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="{{route('goodmorning')}}">GADAPA GADAPAKU MANA PRABHUTVAM </a></li>
@@ -79,8 +79,8 @@
             </li>
           </ul>
           <div class="d-flex">
-          <a href="https://m.facebook.com/kotaru9999" class="text-decoration-none"><i class="fa-brands fa-facebook-f text-primary me-3 fs-4"></i></a>
-          <a href="https://twitter.com/AbbayaChowdary"><i class="fa-brands fa-twitter text-primary me-3 fs-4"></i></a>
+          <a href="https://m.facebook.com/kotaru9999" class="text-decoration-none"><i class="fa-brands fa-facebook-f text-white me-3 fs-4"></i></a>
+          <a href="https://twitter.com/AbbayaChowdary"><i class="fa-brands fa-twitter text-white me-3 fs-4"></i></a>
           <a href="https://youtube.com/channel/UC6odSmHbX9fgBVBgWdZmJLQ"><i class="fa-brands fa-youtube text-danger me-3 fs-4"></i></a>
           <a href="https://www.instagram.com/kotaruabbayachowdary/?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram text-white me-3 fs-4"></i></a>
           </div>
