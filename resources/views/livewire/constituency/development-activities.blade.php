@@ -4,11 +4,11 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="border-start border-primary border-5">
-                        <h2 class="fs-3 ms-3 text-primary">Development Activitites</h2>
+                        <h2 class="fs-3 ms-3 text-primary">Development Activities</h2>
                         <nav aria-label="breadcrumb" class="ms-3">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="{{route('home')}}">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">My Contituency</a></li>
+                                <li class="breadcrumb-item"><a href="#">My Constituency</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Development Activities</li>
                             </ol>
                         </nav>
@@ -72,21 +72,22 @@
                         <div class="text-center">
                             <h5 class="text-center text-primary">R&B </h5>
                             <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total Amount Sanctioned for Maintainence : 263770000.00
+                            <h6 class="text-center text-primary">Total Amount Sanctioned for Maintenance</h6> : 263770000.00
                             </h6>
                             <h6 class="text-center text-primary">Total Amount Sanctioned for R&B roads works : 1368330000.00
                             </h6>
-                        </div></a>                    
+                        </div>
+                    </a>
                 </div>
                 <div class="col-md-3">
-                   <a href="#development5" class="text-decoration-none">
-                    <div class="text-center">
-                        <h5 class="text-center text-primary">Irrigation </h5>
-                        <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                        <h6 class="text-center text-primary">Total No of Works : 33</h6>
-                        <h6 class="text-center text-primary">Total Benefitted Amount (In Lakhs) : 837632000.00</h6>
-                    </div>
-                   </a>
+                    <a href="#development5" class="text-decoration-none">
+                        <div class="text-center">
+                            <h5 class="text-center text-primary">Irrigation </h5>
+                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
+                            <h6 class="text-center text-primary">Total No of Works : 33</h6>
+                            <h6 class="text-center text-primary">Total Benefitted Amount (In Lakhs) : 837632000.00</h6>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-md-3">
                     <a href="#development6" class="text-decoration-none">
@@ -149,8 +150,12 @@
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">Infrastructure & Development                    </h2>
-                    <p class="">
+                    <h2 class="fs-3">Infrastructure & Development</h2>
+                    <h6 class="text-primary">Total Amount Sanctioned for CC Roads : 428741000.00</h6>
+                    <h6 class="text-primary">Total Amount Sanctioned for Sachivalayams : 313000000.00</h6>
+                    <h6 class="text-primary">Total Amount Sanctioned for RBK’s : 176520000.00</h6>
+                    <h6 class="text-primary">Total Amount Sanctioned for YSR Health Centers : 113085000.00</h6>
+                    <!-- <p class="">
                         The scholarship scheme was launched by the Andhra Pradesh Government, mainly the chief minister
                         of Andhra Pradesh that is Mr Jagan Mohan Reddy. Through the implementation of this scheme,
                         financial funds will be provided to all of the students who are willing to study and gain higher
@@ -158,34 +163,39 @@
                         Many of the students in Andhra Pradesh state are of a great academic score but are unable to pay
                         their fees because they don’t have enough money to even eat properly. So, the chief minister of
                         Andhra Pradesh state has launched the Jagananna Vidya Deevena scheme to help all those students.
-                    </p>
-                    <h6 class="text-primary">Total Amount Sanctioned for CC Roads : 428741000.00</h6>
-                    <h6 class="text-primary">Total Amount Sanctioned for Sachivalayams : 313000000.00</h6>
-                    <h6 class="text-primary">Total Amount Sanctioned for RBK’s : 176520000.00</h6>
-                    <h6 class="text-primary">Total Amount Sanctioned for YSR Health Centers : 113085000.00</h6>
+                    </p> -->
 
-                    <div class="">
-                        <a href="{{route('contact')}}" class="btn btn-primary">Contact</a>
-                    </div>
+
+
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <div id="table-1" class="py-3 py-md-5">
+                    <div id="table" class="py-3 py-md-5">
                         <div class="table-responsive">
-                            <table class="table">
+                            <table class="table-bordered text-center">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2"></th>
+                                        <th colspan="2" class="text-center">Denduluru</th>
+                                        <th colspan="2" class="text-center">Eluru</th>
+                                        <th colspan="2" class="text-center">Pedapadu</th>
+                                        <th colspan="2" class="text-center">Pedavegi</th>
+
+                                    </tr>
+                                </thead>
                                 <thead>
                                     <tr>
                                         <th scope="col">S. No</th>
                                         <th scope="col"> Name of the Scheme</th>
 
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
                                     </tr>
                                 </thead>
@@ -254,7 +264,9 @@
                             </table>
                         </div>
                     </div>
-
+                    <!-- <div class="text-center">
+                        <a href="{{route('contact')}}" class="btn btn-primary">Contact</a>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -264,7 +276,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">PEDALANDARIKI ILLU & DWMA NREGS WORKS</h2>
+                    <h2 class="fs-3">Pedalandariki Illu & DWMA NREGS Works</h2>
                     <h6 class="text-primary">Total Sanctions for Land acquisition for housing layouts : 456239843.00
                     </h6>
                     <h6 class="text-primary">Total Sanctions for House Site Ground Levelling : 130888992.00</h6>
@@ -288,9 +300,9 @@
                         <li> The main objective of launching <strong> Pedalandariki Illu Scheme </strong> is to provide
                             better houses to the poor people of Andhra Pradesh.</li>
                         </p>
-                        <div class="">
+                        <!-- <div class="">
                             <a href="{{route('contact')}}" class="btn btn-primary">Contact</a>
-                        </div>
+                        </div> -->
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
@@ -301,21 +313,30 @@
 
             <div class="row">
                 <div class="col-md-12">
-                    <div id="table-2" class="py-3 py-md-5">
+                    <div id="table-1" class="py-3 py-md-5">
                         <div class="table-responsive">
-                            <table class="table">
+                            <table class="table-bordered text-center">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2"></th>
+                                        <th colspan="2" class="text-center">Denduluru</th>
+                                        <th colspan="2" class="text-center">Eluru</th>
+                                        <th colspan="2" class="text-center">Pedapadu</th>
+                                        <th colspan="2" class="text-center">Pedavegi</th>
+                                    </tr>
+                                </thead>
                                 <thead>
                                     <tr>
                                         <th scope="col">S. No</th>
                                         <th scope="col"> Name of the Scheme</th>
 
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
                                     </tr>
                                 </thead>
@@ -423,44 +444,64 @@
                     <h6 class="text-primary">Total No of Schools Selected : 137 </h6>
                     <h6 class="text-primary">
                         Total Amount Sanctioned : 256951000.00</h6>
-                    <p class="">
-                        • Government of Andhra Pradesh considers the school as a divine place and wants to promote the
-                        school as a true learning center to the children. The Government desires to improve the learning
-                        outcomes and decrease the dropout rate in all schools by taking up various measures including
-                        upgrading the school infrastructure through the implementation of Mana Badi - Nadu Nedu Program.
-                        The Government wants to develop the school infrastructure in the state in a systematic manner to
-                        reach the required standards by involving the parents who are the key stakeholders.
-                    </p>
-                    <p class="">• Mana Badi – Nadu Nedu is to strengthen the infrastructure and transform the existing
-                        infrastructure of the schools in the mission mode in a phased manner over a period of three
-                        years, starting from 2019-20. Under Mana Badi – Nadu Nedu program, following 9 infrastructure
-                        components have been taken up. (I) Toilets with running water (ii) ) Drinking water supply (iii)
-                        Major and minor repairs (iv) Electrification with fans and tube lights (v) Furniture for
-                        students and staff (vi) Green chalk boards (vii) Painting to schools (viii) English labs and
-                        (ix) Compound walls.</p>
+                    <ul>
+                        <li>
+                            Government of Andhra Pradesh considers the school as a divine place and wants to promote the
+                            school as a true learning center to the children. The Government desires to improve the learning
+                            outcomes and decrease the dropout rate in all schools by taking up various measures including
+                            upgrading the school infrastructure through the implementation of Mana Badi - Nadu Nedu Program.
+                            The Government wants to develop the school infrastructure in the state in a systematic manner to
+                            reach the required standards by involving the parents who are the key stakeholders.
+                        </li>
+                        <li>Mana Badi – Nadu Nedu is to strengthen the infrastructure and transform the existing
+                            infrastructure of the schools in the mission mode in a phased manner over a period of three
+                            years, starting from 2019-20. Under Mana Badi – Nadu Nedu program, following 9 infrastructure
+                            components have been taken up.
+                        </li>
+                    </ul>
+                    <ol type="1">
+                        <li>Toilets with running water </li>
+                        <li>Drinking water supply </li>
+                        <li>Major and minor repairs</li>
+                        <li>Electrification with fans and tube lights </li>
+                        <li>Furniture for students and staff</li>
+                        <li>Green chalk boards </li>
+                        <li>Painting to schools </li>
+                        <li>English labs and</li>
+                        <li>Compound walls</li>
+                    </ol>
 
-                    <div class="">
+                    <!-- <div class="">
                         <a href="{{route('contact')}}" class="btn btn-primary">Contact</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <div id="table-1" class="py-3 py-md-5">
                         <div class="table-responsive">
-                            <table class="table">
+                            <table class="table-bordered text-center">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2"></th>
+                                        <th colspan="2" class="text-center">Denduluru</th>
+                                        <th colspan="2" class="text-center">Eluru</th>
+                                        <th colspan="2" class="text-center">Pedapadu</th>
+                                        <th colspan="2" class="text-center">Pedavegi</th>
+                                    </tr>
+                                </thead>
                                 <thead>
                                     <tr>
                                         <th scope="col">S. No</th>
                                         <th scope="col"> Name of the Scheme</th>
 
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
                                     </tr>
                                 </thead>
@@ -492,13 +533,13 @@
             <div class="row">
                 <div class="col-md-8 align-self-center">
                     <h2 class="fs-3">RWS</h2>
-                    <h6 class="text-primary">Total Amount Sanctioned for CC Drains   : 202000000.00
+                    <h6 class="text-primary">Total Amount Sanctioned for CC Drains : 202000000.00
                     </h6>
-                    <h6 class="text-primary">Sanctioned Amount for Drinking water works under Jaljeevan Mission   : 206925000.00</h6>
-                    <h6 class="text-primary">Sanctioned Amount for  Providing of drinking water in Jagananna Housing colonies : 63232000.00</h6>
-                            <div class="py-2 py-md-2">
-                            <a href="{{route('contact')}}" class="btn btn-primary">Contact</a>
-                        </div>
+                    <h6 class="text-primary">Sanctioned Amount for Drinking water works under Jaljeevan Mission : 206925000.00</h6>
+                    <h6 class="text-primary">Sanctioned Amount for Providing of drinking water in Jagananna Housing colonies : 63232000.00</h6>
+                    <!-- <div class="py-2 py-md-2">
+                        <a href="{{route('contact')}}" class="btn btn-primary">Contact</a>
+                    </div> -->
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
@@ -509,21 +550,30 @@
 
             <div class="row">
                 <div class="col-md-12">
-                    <div id="table-2" class="py-3 py-md-5">
+                    <div id="table-1" class="py-3 py-md-5">
                         <div class="table-responsive">
-                            <table class="table">
+                            <table class="table-bordered text-center">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2"></th>
+                                        <th colspan="2" class="text-center">Denduluru</th>
+                                        <th colspan="2" class="text-center">Eluru</th>
+                                        <th colspan="2" class="text-center">Pedapadu</th>
+                                        <th colspan="2" class="text-center">Pedavegi</th>
+                                    </tr>
+                                </thead>
                                 <thead>
                                     <tr>
                                         <th scope="col">S. No</th>
                                         <th scope="col"> Name of the Scheme</th>
 
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
                                     </tr>
                                 </thead>
@@ -531,7 +581,7 @@
                                     <tr>
                                         <th scope="row">1</th>
                                         <td>CC DRAINS </td>
-                                        <td>  </td>
+                                        <td> </td>
                                         <td>14000000</td>
                                         <td>20</td>
                                         <td>55000000</td>
@@ -544,7 +594,7 @@
                                         <th scope="row">2</th>
                                         <td>Drinking water works under Jaljeevan Mission</td>
                                         <td> </td>
-                                        <td>20104000  </td>
+                                        <td>20104000 </td>
                                         <td>27</td>
                                         <td>32200000</td>
                                         <td>50</td>
@@ -557,7 +607,7 @@
                                         <th scope="row">3</th>
                                         <td>Providing of drinking water in Jagananna Housing colonies</td>
                                         <td> </td>
-                                        <td>20028000  </td>
+                                        <td>20028000 </td>
                                         <td>11</td>
                                         <td>4100000</td>
                                         <td>37 Works</td>
@@ -604,42 +654,51 @@
                 </div>
                 <div class="col-md-8 align-self-center">
                     <h2 class="fs-3">
-                        R&B 
-                   </h2>                   
-                    <h6 class="text-primary">Amount Sanctioned for Maintainence of MDR Roads in Mandal :  263770000.00</h6>
+                        R&B
+                    </h2>
+                    <h6 class="text-primary">Amount Sanctioned for Maintenanceof MDR Roads in Mandal : 263770000.00</h6>
                     <h6 class="text-primary">Amount Sanctioned for R&B roads works : 1368330000.00</h6>
-                    <div class="">
+                    <!-- <div class="">
                         <a href="{{route('contact')}}" class="btn btn-primary">Contact</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <div id="table-1" class="py-3 py-md-5">
                         <div class="table-responsive">
-                            <table class="table">
+                            <table class="table-bordered text-center">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2"></th>
+                                        <th colspan="2" class="text-center">Denduluru</th>
+                                        <th colspan="2" class="text-center">Eluru</th>
+                                        <th colspan="2" class="text-center">Pedapadu</th>
+                                        <th colspan="2" class="text-center">Pedavegi</th>
+                                    </tr>
+                                </thead>
                                 <thead>
                                     <tr>
                                         <th scope="col">S. No</th>
                                         <th scope="col"> Name of the Scheme</th>
 
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <th scope="row">1</th>
-                                        <td>Maintainence of MDR Roads in Mandal</td>
+                                        <td>Maintenanceof MDR Roads in Mandal</td>
                                         <td> 8 nos </td>
-                                        <td>3070000  </td>
-                                        <td>  5 nos  of Roads length 39.91kms</td>
+                                        <td>3070000 </td>
+                                        <td> 5 nos of Roads length 39.91kms</td>
                                         <td></td>
                                         <td>23.80 kms </td>
                                         <td>238000000</td>
@@ -651,7 +710,7 @@
                                         <td>R&B roads works in mandal</td>
                                         <td>7 nos </td>
                                         <td>286500000 </td>
-                                        <td> 18 nos  39.91 kms</td>
+                                        <td> 18 nos 39.91 kms</td>
                                         <td>50030000</td>
                                         <td>27.676</td>
                                         <td>588100000</td>
@@ -675,10 +734,10 @@
                     <h2 class="fs-3">Irrigation </h2>
                     <h6 class="text-primary">Total No of Works : 33
                     </h6>
-                    <h6 class="text-primary">Total Amount Sanctioned for Irrigation Works :  837632000.00</h6>
-                            <div class="py-2 py-md-2">
-                            <a href="{{route('contact')}}" class="btn btn-primary">Contact</a>
-                        </div>
+                    <h6 class="text-primary">Total Amount Sanctioned for Irrigation Works : 837632000.00</h6>
+                    <!-- <div class="py-2 py-md-2">
+                        <a href="{{route('contact')}}" class="btn btn-primary">Contact</a>
+                    </div> -->
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
@@ -689,21 +748,30 @@
 
             <div class="row">
                 <div class="col-md-12">
-                    <div id="table-2" class="py-3 py-md-5">
+                    <div id="table-1" class="py-3 py-md-5">
                         <div class="table-responsive">
-                            <table class="table">
+                            <table class="table-bordered text-center">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2"></th>
+                                        <th colspan="2" class="text-center">Denduluru</th>
+                                        <th colspan="2" class="text-center">Eluru</th>
+                                        <th colspan="2" class="text-center">Pedapadu</th>
+                                        <th colspan="2" class="text-center">Pedavegi</th>
+                                    </tr>
+                                </thead>
                                 <thead>
                                     <tr>
                                         <th scope="col">S. No</th>
                                         <th scope="col"> Name of the Scheme</th>
 
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
                                     </tr>
                                 </thead>
@@ -760,24 +828,30 @@
                 <div class="col-md-8 align-self-center">
                     <h2 class="fs-3">
                         RUrban
-                   </h2>                   
+                    </h2>
                     <h6 class="text-primary">Total Amount Sanctioned : 577525000.00</h6>
-                    <div class="">
+                    <!-- <div class="">
                         <a href="{{route('contact')}}" class="btn btn-primary">Contact</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <div id="table-1" class="py-3 py-md-5">
                         <div class="table-responsive">
-                            <table class="table">
+                            <table class="table-bordered text-center">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2"></th>
+                                        <th colspan="2" class="text-center">Eluru</th>
+                                    </tr>
+                                </thead>
                                 <thead>
                                     <tr>
                                         <th scope="col">S. No</th>
                                         <th scope="col"> Name of the Scheme</th>
 
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
                                     </tr>
                                 </thead>
@@ -814,13 +888,13 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">6</th>
-                                        <td>CC DRAINS  (Rurban)</td>
+                                        <td>CC DRAINS (Rurban)</td>
                                         <td>20 </td>
                                         <td>55000000.00 </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">7</th>
-                                        <td>Irrigation  (Rurban)</td>
+                                        <td>Irrigation (Rurban)</td>
                                         <td>2 </td>
                                         <td>40000000.00 </td>
                                     </tr>
@@ -843,10 +917,10 @@
                     </h6>
                     <h6 class="text-primary">Total Amount Spent on New Transformers : 129900000.00</h6>
                     <h6 class="text-primary">New Substations Constructed : 5</h6>
-                    <h6 class="text-primary">Total Amount Spent on new sub stations :  225000000.00</h6>
-                            <div class="py-2 py-md-2">
-                            <a href="{{route('contact')}}" class="btn btn-primary">Contact</a>
-                        </div>
+                    <h6 class="text-primary">Total Amount Spent on new sub stations : 225000000.00</h6>
+                    <!-- <div class="py-2 py-md-2">
+                        <a href="{{route('contact')}}" class="btn btn-primary">Contact</a>
+                    </div> -->
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
@@ -857,21 +931,30 @@
 
             <div class="row">
                 <div class="col-md-12">
-                    <div id="table-2" class="py-3 py-md-5">
+                    <div id="table-1" class="py-3 py-md-5">
                         <div class="table-responsive">
-                            <table class="table">
+                            <table class="table-bordered text-center">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2"></th>
+                                        <th colspan="2" class="text-center">Denduluru</th>
+                                        <th colspan="2" class="text-center">Eluru</th>
+                                        <th colspan="2" class="text-center">Pedapadu</th>
+                                        <th colspan="2" class="text-center">Pedavegi</th>
+                                    </tr>
+                                </thead>
                                 <thead>
                                     <tr>
                                         <th scope="col">S. No</th>
                                         <th scope="col"> Name of the Scheme</th>
 
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
-                                        <th scope="col">No. of Benificieries/ Item of Work</th>
+                                        <th scope="col">No. of Beneficiaries/ Item of Work</th>
                                         <th scope="col">Amount in Rs. (Rupees)</th>
                                     </tr>
                                 </thead>
@@ -879,7 +962,7 @@
                                     <tr>
                                         <th scope="row">1</th>
                                         <td>New lines erected / Development </td>
-                                        <td> 8 KM  </td>
+                                        <td> 8 KM </td>
                                         <td>16000000.00</td>
                                         <td>6 km</td>
                                         <td>12500000.00</td>
@@ -888,7 +971,7 @@
                                         <td>12</td>
                                         <td>6700000.00</td>
                                     </tr>
-                                    
+
                                     <tr>
                                         <th scope="row">2</th>
                                         <td>Irrigation Works </td>
@@ -916,7 +999,7 @@
                                     <tr>
                                         <th scope="row">4</th>
                                         <td>Irrigation Works </td>
-                                        <td>180  </td>
+                                        <td>180 </td>
                                         <td>18000000.00</td>
                                         <td>72</td>
                                         <td>19200000.00</td>
