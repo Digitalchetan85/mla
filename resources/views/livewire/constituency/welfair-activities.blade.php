@@ -4,12 +4,12 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="border-start border-primary border-5">
-                        <h2 class="fs-3 ms-3 text-primary">Welfare Activitites</h2>
+                        <h2 class="fs-3 ms-3 text-primary">Welfare Activities</h2>
                         <nav aria-label="breadcrumb" class="ms-3">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="{{route('home')}}">Home</a></li>
                                 <li class="breadcrumb-item"><a href="#">My Constituency</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Welfare Activitites</li>
+                                <li class="breadcrumb-item active" aria-current="page">Welfare Activities</li>
                             </ol>
                         </nav>
                     </div>

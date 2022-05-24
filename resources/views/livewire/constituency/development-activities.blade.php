@@ -25,7 +25,7 @@
                     <a href="#development" class="text-decoration-none">
                         <div class="text-center">
                             <h5 class="text-center text-primary">Infrastructure & Development</h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
+                            <img class="img-fulid" src="{{asset('assets/images/deve1.png')}}" />
                             <h6 class="text-center text-primary">Total Amount Sanctioned for CC Roads : 428741000.00
                             </h6>
                             <h6 class="text-center text-primary">Total Amount Sanctioned for Sachivalayams :
@@ -37,7 +37,7 @@
                     <a href="#development1" class="text-decoration-none">
                         <div class="text-center">
                             <h5 class="text-center text-primary">Pedalandriki Illu & DWMA NREGS Works</h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
+                            <img class="img-fulid" src="{{asset('assets/images/deve2.png')}}" />
                             <h6 class="text-center text-primary">Total Sanctions for Land acquisition for housing
                                 layouts :
                                 456239843.00</h6>
@@ -110,43 +110,25 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <!-- <div class="col-md-3">
                     <div class="text-center">
                         <h5 class="text-center text-primary">Jagananna Vidya Deevena</h5>
                         <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
                         <h6 class="text-center text-primary">Total No of Beneficiaries : 57799</h6>
                         <h6 class="text-center text-primary">Total Benefitted Amount (In Lakhs) : 864953250</h6>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
+    <hr />
 
     <div id="development" class="py-3 py-md-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 align-self-center">
-                    <div class="owl-carousel owl-theme" id="good">
-                        <div class="item">
-                            <div class="text-center">
-                                <img src="{{asset('assets/images/ban-1.png')}}" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="text-center">
-                                <img src="{{asset('assets/images/ban-2.png')}}" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="text-center">
-                                <img src="{{asset('assets/images/ban-3.png')}}" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="text-center">
-                                <img src="{{asset('assets/images/ban-3.png')}}" alt="" class="img-fluid">
-                            </div>
-                        </div>
+                    <div class="text-center">
+                        <img class="img-fulid" src="{{asset('assets/images/deve1.png')}}" />
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
@@ -306,7 +288,7 @@
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/deve2.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -416,27 +398,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 align-self-center">
-                    <div class="owl-carousel owl-theme" id="good">
-                        <div class="item">
-                            <div class="text-center">
-                                <img src="{{asset('assets/images/ban-1.png')}}" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="text-center">
-                                <img src="{{asset('assets/images/ban-2.png')}}" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="text-center">
-                                <img src="{{asset('assets/images/ban-3.png')}}" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="text-center">
-                                <img src="{{asset('assets/images/ban-3.png')}}" alt="" class="img-fluid">
-                            </div>
-                        </div>
+                    <div class="text-center">
+                        <img src="{{asset('assets/images/deve3.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
@@ -543,7 +506,7 @@
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/deve4.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -629,27 +592,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 align-self-center">
-                    <div class="owl-carousel owl-theme" id="good">
-                        <div class="item">
-                            <div class="text-center">
-                                <img src="{{asset('assets/images/ban-1.png')}}" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="text-center">
-                                <img src="{{asset('assets/images/ban-2.png')}}" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="text-center">
-                                <img src="{{asset('assets/images/ban-3.png')}}" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="text-center">
-                                <img src="{{asset('assets/images/ban-3.png')}}" alt="" class="img-fluid">
-                            </div>
-                        </div>
+                    <div class="text-center">
+                        <img src="{{asset('assets/images/deve5.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
@@ -741,7 +685,7 @@
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/deve6.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -802,27 +746,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 align-self-center">
-                    <div class="owl-carousel owl-theme" id="good">
-                        <div class="item">
-                            <div class="text-center">
-                                <img src="{{asset('assets/images/ban-1.png')}}" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="text-center">
-                                <img src="{{asset('assets/images/ban-2.png')}}" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="text-center">
-                                <img src="{{asset('assets/images/ban-3.png')}}" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="text-center">
-                                <img src="{{asset('assets/images/ban-3.png')}}" alt="" class="img-fluid">
-                            </div>
-                        </div>
+                    <div class="text-center">
+                        <img src="{{asset('assets/images/deve7.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
@@ -924,7 +849,7 @@
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/deve8.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>

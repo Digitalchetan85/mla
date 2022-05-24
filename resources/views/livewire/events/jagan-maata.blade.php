@@ -8,7 +8,7 @@
                         <nav aria-label="breadcrumb" class="ms-3">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="{{route('home')}}">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">My Contituency</a></li>
+                                <li class="breadcrumb-item"><a href="#">My Constituency</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Jagan Maata - Abbaya Bata</li>
                             </ol>
                         </nav>
@@ -29,17 +29,13 @@
                 <div class="col-md-8 align-self-center">
                     <h2 class="fs-3">Good Morning Denduluru</h2>
                     <p class="">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.
+                    Good Morning Denduluru is a program designed by  Abbaya Chowdary ,MLA-Denduluru to visit the villages of Denduluru Constituency in the morning to interact with the people and to know about the ground level issues , and coordinating with the concerned officers to get the solution for those issues.
+
                     </p>
-                    <div class="">
+                    <p>Main purpose of this program is to solve or identify the solution for the issues on spot by coordinating with officials.</p>
+                    <!-- <div class="">
                         <a href="{{route('contact')}}" class="btn btn-primary">Contact</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -51,17 +47,12 @@
                 <div class="col-md-8 align-self-center">
                     <h2 class="fs-3">Secratariat Visits</h2>
                     <p class="">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.
+                    Village ward secretariat system is the noble idea that brings the Government Administration from mandal level to village level.
                     </p>
-                    <div class="">
+                    <p>Honorable Chief minister YS Jagan Mohan Reddy has asked the MLAs to visit the village and ward secretariats .The move is to motivate the staff to serve people better and to interact with the local people on the functioning of Secretariats and the response from the staff on their grievances.</p>
+                    <!-- <div class="">
                         <a href="{{route('contact')}}" class="btn btn-primary">Contact</a>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
@@ -83,17 +74,12 @@
                 <div class="col-md-8 align-self-center">
                     <h2 class="fs-3">Mandal Review Meetings</h2>
                     <p class="">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.
+                    Denduluru constituency consists of four mandals, Denduluru , Eluru( Rural), Pedapadu, Pedavegi. Conducting mandal review meetings in every 2 months by coordinating all the line departments like revenue,housing,R&B,RWS,Panchayat Raj.
                     </p>
-                    <div class="">
+                    <p>Main purpose of the review meeting is to get the update on all the development and welfare activities that are going on in mandal level and to understand the challenges and hiccups , if there are any issues or challenges that needs to be addressed by the higher authorities helping the mandal level officers to resolve those issues.</p>
+                    <!-- <div class="">
                         <a href="{{route('contact')}}" class="btn btn-primary">Contact</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

@@ -79,10 +79,10 @@
             </li>
           </ul>
           <div class="d-flex">
-            <i class="fa-brands fa-facebook-f text-white me-2 fs-4"></i>
-            <i class="fa-brands fa-twitter text-white me-2 fs-4"></i>
-            <i class="fa-brands fa-youtube text-white me-2 fs-4"></i>
-            <i class="fa-brands fa-instagram text-white me-2 fs-4"></i>
+          <a href="https://m.facebook.com/kotaru9999" class="text-decoration-none"><i class="fa-brands fa-facebook-f text-white me-3 fs-4"></i></a>
+          <a href="https://twitter.com/AbbayaChowdary"><i class="fa-brands fa-twitter text-white me-3 fs-4"></i></a>
+          <a href="https://youtube.com/channel/UC6odSmHbX9fgBVBgWdZmJLQ"> <i class="fa-brands fa-youtube text-white me-3 fs-4"></i></a>
+          <a href="https://www.instagram.com/kotaruabbayachowdary/?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram text-white me-2 fs-4"></i></a>
           </div>
         </div>
       </div>
@@ -212,6 +212,17 @@
   {{-- <script src="{{asset('assets/js/bootstrap-hover-dropdown.min.js')}}"></script> --}}
   <script src="{{asset('assets/js/jquery.bootstrap-dropdown-hover.min.js')}}"></script>
   <script src="{{asset('assets/js/main.js')}}"></script>
+  <script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/628cc1ee7b967b117990f56d/1g3qtb3ao';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--
