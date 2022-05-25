@@ -8,7 +8,7 @@
                         <nav aria-label="breadcrumb" class="ms-3">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="{{route('home')}}">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">My Contituency</a></li>
+                                <li class="breadcrumb-item"><a href="#">My Constituency</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Skill Up Denduluru</li>
                             </ol>
                         </nav>
@@ -28,7 +28,7 @@
                 </div>
                 <div class="col-md-6 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/placements.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/skill.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -45,8 +45,8 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1"><i
-                                                class="fa fa-user text-primary"></i></span>
+                                        <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
+                                                class="fa fa-user text-white"></i></span>
                                         <input type="text" class="form-control" placeholder="Name" aria-label="Username"
                                             aria-describedby="basic-addon1">
                                     </div>
@@ -55,8 +55,8 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1"><i
-                                                class="fa fa-envelope text-primary"></i></span>
+                                        <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
+                                                class="fa fa-envelope text-white"></i></span>
                                         <input type="email" class="form-control" placeholder="Email"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
@@ -65,8 +65,8 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1"><i
-                                                class="fa fa-phone-volume text-primary"></i></span>
+                                        <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
+                                                class="fa fa-phone-volume text-white"></i></span>
                                         <input type="tel" class="form-control" placeholder="Contact No"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
@@ -75,8 +75,8 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1"><i
-                                                class="fa fa-building text-primary"></i></span>
+                                        <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
+                                                class="fa fa-building text-white"></i></span>
                                         <select class="form-select" aria-label="Default select example">
                                             <option selected>--Mandalam--</option>
                                             <option value="1">One</option>
@@ -89,8 +89,8 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1"><i
-                                                class="fa fa-building text-primary"></i></span>
+                                        <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
+                                                class="fa fa-building text-white"></i></span>
                                         <input type="text" class="form-control" placeholder="Village"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
@@ -99,8 +99,8 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1"><i
-                                                class="fa fa-building text-primary"></i></span>
+                                        <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
+                                                class="fa fa-building text-white"></i></span>
                                         <input type="text" class="form-control" placeholder="Address"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
@@ -109,16 +109,16 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1"><i
-                                                class="fa fa-building text-primary"></i></span>
+                                        <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
+                                                class="fa fa-building text-white"></i></span>
                                         <input type="text" class="form-control" placeholder="SSC Year of Pass"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1"><i
-                                                class="fa fa-building text-primary"></i></span>
+                                        <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
+                                                class="fa fa-building text-white"></i></span>
                                         <input type="text" class="form-control" placeholder="SSC %"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
@@ -127,16 +127,16 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1"><i
-                                                class="fa fa-building text-primary"></i></span>
+                                        <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
+                                                class="fa fa-building text-white"></i></span>
                                         <input type="text" class="form-control" placeholder="Inter Year of Pass"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1"><i
-                                                class="fa fa-building text-primary"></i></span>
+                                        <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
+                                                class="fa fa-building text-white"></i></span>
                                         <input type="text" class="form-control" placeholder="Inter %"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
@@ -145,8 +145,8 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1"><i
-                                                class="fa fa-building text-primary"></i></span>
+                                        <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
+                                                class="fa fa-building text-white"></i></span>
                                         <select class="form-select" aria-label="Default select example">
                                             <option selected>--Mandalam--</option>
                                             <option value="1">Degree</option>
@@ -157,8 +157,8 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1"><i
-                                                class="fa fa-building text-primary"></i></span>
+                                        <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
+                                                class="fa fa-building text-white"></i></span>
                                         <input type="text" class="form-control" placeholder="Graduation Stream"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
@@ -168,16 +168,16 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1"><i
-                                                class="fa fa-building text-primary"></i></span>
+                                        <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
+                                                class="fa fa-building text-white"></i></span>
                                         <input type="text" class="form-control" placeholder="Graduation Year of Pass"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1"><i
-                                                class="fa fa-building text-primary"></i></span>
+                                        <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
+                                                class="fa fa-building text-white"></i></span>
                                         <input type="text" class="form-control" placeholder="Graduation %"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
@@ -186,8 +186,8 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1"><i
-                                                class="fa fa-building text-primary"></i></span>
+                                        <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
+                                                class="fa fa-building text-white"></i></span>
                                         <input type="text" class="form-control"
                                             placeholder="Post Graduation Year of Pass" aria-label="Username"
                                             aria-describedby="basic-addon1">
@@ -195,8 +195,8 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1"><i
-                                                class="fa fa-building text-primary"></i></span>
+                                        <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
+                                                class="fa fa-building text-white"></i></span>
                                         <input type="text" class="form-control" placeholder="Post Graduation %"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
@@ -205,8 +205,8 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1"><i
-                                                class="fa fa-building text-primary"></i></span>
+                                        <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
+                                                class="fa fa-building text-white"></i></span>
                                         <input type="text" class="form-control" placeholder="Any Trainings (if Any)"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
@@ -216,12 +216,12 @@
                                 <div class="col-md-12">
                                     <div class="input-group mb-3">
                                         <input type="file" class="form-control" id="inputGroupFile02">
-                                        <label class="input-group-text" for="inputGroupFile02">Upload Resume</label>
+                                        <label class="input-group-text ms-1 " for="inputGroupFile02">Upload Resume</label>
                                     </div>
                                 </div>
                             </div>
                             <div class="row mb-3">
-                                <div class="col-md-12">
+                                <div class="col-md-4">
                                     <button type="button" class="btn btn-primary form-control">Submit</button>
                                 </div>
                             </div>

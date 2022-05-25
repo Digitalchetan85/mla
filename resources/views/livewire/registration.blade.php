@@ -49,7 +49,7 @@
                                     <div class="row justify-content-center">
                                         <div class="col-md-10">
                                             <div class="input-group mb-3 ">
-                                                <span class="input-group-text me-2 bg-primary" id="basic-addon1"><i class="fa fa-user text-white"></i></span>
+                                                <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i class="fa fa-user text-white"></i></span>
                                                 <input type="text" class="form-control" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1">
                                             </div>
                                         </div>

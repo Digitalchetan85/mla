@@ -11,7 +11,7 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <a href="{{route('registration')}}" class="text-decoration-none"><img src="{{asset('assets/images/ban-1.png')}}" class="img-fluid w-100" alt="..."></a>
+                    <a href="{{route('registration')}}" class="text-decoration-none"><img src="{{asset('assets/images/3.png')}}" class="img-fluid w-100" alt="..."></a>
                     <div class="custom ms-2 ms-md-5 position-absolute top-50 start-0 translate-middle-y text-center w-50">
                         {{-- <h5 class="text-white">A voice of Denduluru</h5>
                         <p class="text-white">Please get in touch if you have any questions or concerns</p> --}}
@@ -21,7 +21,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{asset('assets/images/ban-2.png')}}" class="img-fluid w-100" alt="...">
+                    <img src="{{asset('assets/images/2.png')}}" class="img-fluid w-100" alt="...">
                     <div class="custom position-absolute top-50 start-0 translate-middle-y text-center w-50 ms-auto">
                         {{-- <h5 class="text-primary">Skill Up Denduluru</h5>
                         <p class="text-dark">SkillUp Denduluru is a program designed by Abbaya chowdary, MLA - Denduluru to train the youth on the required technologies as per industry trends and assist them on getting the job </p> --}}
@@ -31,7 +31,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <a href="{{route('skill')}}" class="text-decoration-none"><img src="{{asset('assets/images/ban-3.png')}}" class="img-fluid w-100" alt="..."></a>
+                    <a href="{{route('skill')}}" class="text-decoration-none"><img src="{{asset('assets/images/1.png')}}" class="img-fluid w-100" alt="..."></a>
                     <div class="custom ms-2 ms-md-5 position-absolute top-50 start-0 translate-middle-y text-center w-50">
                         {{-- <h5 class="text-primary">Skill Up Denduluru</h5>
                         <p class="text-dark">SkillUp Denduluru is a program designed by Abbaya chowdary, MLA- Denduluru to train the youth on the required technologies as per industry trends and assist them on getting the job             </p> --}}

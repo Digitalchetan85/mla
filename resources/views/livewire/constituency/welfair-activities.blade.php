@@ -296,7 +296,7 @@
             <div class="row">
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/schemes/ammavodi.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
@@ -401,7 +401,7 @@
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/schemes/barosa.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -819,7 +819,7 @@
             <div class="row">
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/schemes/cheyutha.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
@@ -939,7 +939,7 @@
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/schemes/asara.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -950,7 +950,7 @@
             <div class="row">
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/schemes/bima.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
@@ -1082,7 +1082,7 @@
             <div class="row">
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/schemes/chenetha.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
@@ -1198,7 +1198,7 @@
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/schemes/chedhodu.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -1322,7 +1322,7 @@
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/schemes/vahana.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -1333,7 +1333,7 @@
             <div class="row">
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/schemes/arogya.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
@@ -1521,7 +1521,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">YDr. YSR Arogya Sri</h2>
+                    <h2 class="fs-3">Dr. YSR Arogya Sri</h2>
                     <h6 class="text-primary">Total No of Beneficiaries : All the families who has Aarogya Sri cards.</h6>
                     <p class="">
                     Dr YSR Aarogyasri Health Care Trust manages the Aarogyasri Scheme, which is a state-run healthcare programme. Financially challenged individuals in society can benefit greatly from the said scheme.
@@ -1580,7 +1580,7 @@
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/schemes/arogya.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -1710,7 +1710,7 @@
             <div class="row">
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/schemes/poshana.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
@@ -1956,7 +1956,7 @@
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                    <img src="{{asset('assets/images/schemes/jala.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
