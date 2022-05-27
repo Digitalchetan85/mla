@@ -18,42 +18,44 @@
         </div>
     </div>
 
-    <div id="test" class="py-3 py-md-5">
+    <div id="test" class="py-3 py-md-5 bg-light">
         <div class="container">
             <div class="row g-3">
                 <h2 class="text-primary text-center">Welfare Schemes</h2>
                 <p class="">The Government of Andhra Pradesh is committed to the Welfare and Development of all segments of the society. Government have announced "Navarathnalu" comprising of various welfare and developmental programmes to achieve this objective.</p>
-                <h3 class="text-center">DENDULURU CONSTITUENCY WISE BENEFICIARIES UNDER VARIOUS WELFARE SCHEMES FROM JUNE 2019 TO MAY 2022</h3>
-                <h6 class="text-center text-primary">Total No of beneficiaries : 391525</h6>
-                <h6 class="text-center text-primary">Total Benefited Amount (In Crores) : 785.49</h6>
+                <h3 class="text-center text-success">DENDULURU CONSTITUENCY WISE BENEFICIARIES UNDER VARIOUS WELFARE SCHEMES FROM JUNE 2019 TO MAY 2022</h3>
+                <h6 class="text-center text-primary">Total No of beneficiaries : 3,83,686</h6>
+                <h6 class="text-center text-primary">Total Benefited Amount (In Crores) : 857.59</h6>
 
                 <div class="col-md-3">
-                    <a href="#scheme1" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">Jagananna Amma Vodi</h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 40516</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Lakhs) : 531408000</h6>
-                        </div>
-                    </a>
+                    <div class="bg-white shadow py-3 rounded">
+                        <a href="#scheme1" class="text-decoration-none">
+                            <div class="text-center ">
+                                <h5 class="text-center text-success">Jagananna Amma Vodi</h5>
+                                <img class="img-fulid" src="{{asset('assets/images/scheme-logo/amma.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 40,516</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 53,14,08,000</h6>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-md-3">
-                    <a href="#scheme2" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">YSR Rythu Bharosa</h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 46456</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Lakhs) : 663374750</h6>
-                        </div>
-                    </a>
+                    
                 </div>
-                <div class="col-md-3">
+                <div class="co<a href="#scheme2" class="text-decoration-none">
+                        <div class="text-center">
+                            <h5 class="text-center text-success">YSR Rythu Bharosa</h5>
+                            <img class="img-fulid" src="{{asset('assets/images/scheme-logo/rytu-bharosa.png')}}" />
+                            <h6 class="text-center text-danger">Total No of Beneficiaries : 46,456</h6>
+                            <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 188,14,68,000</h6>
+                        </div>
+                    </a>l-md-3">
                     <a href="#scheme3" class="text-decoration-none">
                         <div class="text-center">
-                            <h5 class="text-center text-primary">Jagananna Vasati Deevena</h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 4844</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Lakhs) : 128888900</h6>
+                            <h5 class="text-center text-success">Jagananna Vasati Deevena</h5>
+                            <img class="img-fulid" src="{{asset('assets/images/scheme-logo/vasati.png')}}" />
+                            <h6 class="text-center text-success">Total No of Beneficiaries : 4,844</h6>
+                            <h6 class="text-center text-success">Total Benefitted Amount (In Rupees) : 12,88,88,900</h6>
                         </div>
                     </a>
                 </div>
@@ -61,9 +63,9 @@
                     <a href="#scheme4" class="text-decoration-none">
                         <div class="text-center">
                             <h5 class="text-center text-primary">Jagananna Vidya Deevena</h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 8290</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Lakhs) : 864953250</h6>
+                            <img class="img-fulid" src="{{asset('assets/images/scheme-logo/vidya.png')}}" />
+                            <h6 class="text-center text-primary">Total No of Beneficiaries : 8,290</h6>
+                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 20,14,48,588</h6>
                         </div>
                     </a>
                 </div>
@@ -71,7 +73,7 @@
                     <a href="#scheme5" class="text-decoration-none">
                         <div class="text-center">
                             <h5 class="text-center text-primary">YSR Sunna Vaddi Panta Runalu (farmers)</h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
+                            <img class="img-fulid" src="{{asset('assets/images/scheme-logo/sunna.png')}}" />
                             <h6 class="text-center text-primary">Total No of Beneficiaries : 4546</h6>
                             <h6 class="text-center text-primary">Total Benefitted Amount (In Lakhs) : 39604949</h6>
                         </div>
@@ -1474,7 +1476,7 @@
                     <h2 class="fs-3">One time Financial Assistance to Archakas/ Imams/ Mouzams /Pastors</h2>
                     <h6 class="text-primary">Total No of Beneficiaries : 255</h6>
                     <h6 class="text-primary">Benefitted Amount (In Rupees) : 1270000</h6>
-                    
+
                     <div class="table-responsive py-3 py-md-3">
                         <table class="table-bordered text-center">
                             <thead>
@@ -1524,7 +1526,7 @@
                     <h2 class="fs-3">Dr. YSR Arogya Sri</h2>
                     <h6 class="text-primary">Total No of Beneficiaries : All the families who has Aarogya Sri cards.</h6>
                     <p class="">
-                    Dr YSR Aarogyasri Health Care Trust manages the Aarogyasri Scheme, which is a state-run healthcare programme. Financially challenged individuals in society can benefit greatly from the said scheme.
+                        Dr YSR Aarogyasri Health Care Trust manages the Aarogyasri Scheme, which is a state-run healthcare programme. Financially challenged individuals in society can benefit greatly from the said scheme.
                     </p>
                     <p>The primary objective of this scheme is to provide monetary help for healthcare services to low-income families.</p>
                     <p>The features of the Dr YSR Aarogyasri Health Care Trust managed scheme are as follows:</p>
@@ -1567,7 +1569,7 @@
                                 </tr>
                                 <tr>
                                     <td> Pedavegi</td>
-                                    <td> 0   </td>
+                                    <td> 0 </td>
                                     <td>0 </td>
                                 </tr>
                             </tbody>
@@ -1599,7 +1601,7 @@
                     <h6 class="text-primary">Total No of Beneficiaries : 4054</h6>
                     <h6 class="text-primary">Benefitted Amount (In Rupees) : 55798000</h6>
                     <p class="">
-                    The AP government's 'Jagannanna Thodu' scheme seeks to help small traders who are struggling with high interest rates. 
+                        The AP government's 'Jagannanna Thodu' scheme seeks to help small traders who are struggling with high interest rates.
                     </p>
                     <h5>Benefits to the citizens</h5>
                     <hr />
@@ -1654,7 +1656,7 @@
                     <h6 class="text-primary">Total No of Beneficiaries : 40786</h6>
                     <h6 class="text-primary">Benefitted Amount (In Rupees) : 23633641</h6>
                     <p class="">
-                    PM Poshan (MDM) is implemented in the State from January 2003 for the children of classes I to V. it was extended to class I-VIII from 2008. Extended to the children of classes IX and X with effect from October, 2008 (100% State share). It was further extended to Special Training Centres (NCLP) from 2010. Model schools are also being covered from the year 2013-14. The Hon’ble Chief Minister of Andhra Pradesh has been giving top-most priority to the School Education Department since 2019. As a part of it, many reforms were made in the erstwhile PM Poshan (MDM) Scheme through changes in different aspects of the programme like upgraded menu with variety and tastes enhanced honorarium of the cooks, Real Time Monitoring through Mobile App & Dashboard, Four -Tier Monitoring System and reviews of the programme at different level. With these reforms and enhanced budget, the programme has been renamed as “Jagananna Gorumudda – PM Poshan”.
+                        PM Poshan (MDM) is implemented in the State from January 2003 for the children of classes I to V. it was extended to class I-VIII from 2008. Extended to the children of classes IX and X with effect from October, 2008 (100% State share). It was further extended to Special Training Centres (NCLP) from 2010. Model schools are also being covered from the year 2013-14. The Hon’ble Chief Minister of Andhra Pradesh has been giving top-most priority to the School Education Department since 2019. As a part of it, many reforms were made in the erstwhile PM Poshan (MDM) Scheme through changes in different aspects of the programme like upgraded menu with variety and tastes enhanced honorarium of the cooks, Real Time Monitoring through Mobile App & Dashboard, Four -Tier Monitoring System and reviews of the programme at different level. With these reforms and enhanced budget, the programme has been renamed as “Jagananna Gorumudda – PM Poshan”.
                     </p>
 
                     <div class="table-responsive py-3 py-md-3">
@@ -1718,7 +1720,7 @@
                     <h6 class="text-primary">Total No of Beneficiaries : 15238</h6>
                     <h6 class="text-primary">Benefitted Amount (In Rupees) : 167612696</h6>
                     <p class="">
-                    Government of Andhra Pradesh is committed to ensure access to supplementary nutrition for all pregnant women, lactating mothers, children aged 7-72 months through Anganwadi Centres and implemented in 55,607 Anganwadi Centres. To achieve reduction in malnutrition and anemia in children (below 6 years) and pregnant, lactating women, Government is implementing YSR Sampoorna Poshana and YSR Sampoorna Poshana Plus (+).
+                        Government of Andhra Pradesh is committed to ensure access to supplementary nutrition for all pregnant women, lactating mothers, children aged 7-72 months through Anganwadi Centres and implemented in 55,607 Anganwadi Centres. To achieve reduction in malnutrition and anemia in children (below 6 years) and pregnant, lactating women, Government is implementing YSR Sampoorna Poshana and YSR Sampoorna Poshana Plus (+).
                     </p>
                     <p>YSR Sampoorna Poshana Plus+ Scheme is being implemented in 77 Scheduled and Tribal Sub Plan Mandals, the YSR Sampoorna Poshana Scheme is implemented in the remaining mandals of the State. It is estimated 3.8 lakh beneficiaries in 77 tribal mandals and 26.36 lakh beneficiaries in the remaining mandals in the State will be covered for providing ICDS services through 55,607 Anganwadi Centers, in consultation with National Institute of Nutrition (NIN).</p>
                     <p>Current nutrition programs designed to ensure uniformity and greater coverage of beneficiaries with recommended nutritional standards, while providing iron, protein, energy rich nutrition to pregnant women, lactating mothers. Keeping in view of Under Weight or Malnourished children and high prevalence of anemia in pregnant and lactating mothers nutrition programs have been designed .</p>
@@ -1778,7 +1780,7 @@
                     <h5>Benefits to the citizens</h5>
                     <hr />
                     <p class="">
-                    The scheme would benefit nearly 39.70 lakh students across the state and has been made all arrangements under auspices of Samagra Shishu Abhiyan to provide 7 items to students on the first day of reopening of public schools. The government will also provide bus transportation to the students for free of charge. It is also noted that the students can join either of English medium or Telugu medium. However, it has made Telugu mandatory in every classroom where English medium is taught.
+                        The scheme would benefit nearly 39.70 lakh students across the state and has been made all arrangements under auspices of Samagra Shishu Abhiyan to provide 7 items to students on the first day of reopening of public schools. The government will also provide bus transportation to the students for free of charge. It is also noted that the students can join either of English medium or Telugu medium. However, it has made Telugu mandatory in every classroom where English medium is taught.
                     </p>
 
                     <div class="table-responsive py-3 py-md-3">
@@ -1842,7 +1844,7 @@
                     <h6 class="text-primary">Total No of Beneficiaries : 2140</h6>
                     <h6 class="text-primary">Benefitted Amount (In Rupees) : 32100000</h6>
                     <p class="">
-                    The upper-caste women candidates who belong to the community of Hindus and are economically unstable will be held through the scheme of YSR EBC Nestham 2022. These women will be receiving monetary benefits to support their living due to economical backwardness. The scheme was not a part of the manifesto. However, the YS Government aimed to launch the scheme on the occasion of 73rd Republic Day. The main aim of the scheme is to financially support the lives of middle-aged upper-caste Hindu EBC women and empower them.
+                        The upper-caste women candidates who belong to the community of Hindus and are economically unstable will be held through the scheme of YSR EBC Nestham 2022. These women will be receiving monetary benefits to support their living due to economical backwardness. The scheme was not a part of the manifesto. However, the YS Government aimed to launch the scheme on the occasion of 73rd Republic Day. The main aim of the scheme is to financially support the lives of middle-aged upper-caste Hindu EBC women and empower them.
                     </p>
                     <div class="table-responsive py-3 py-md-3">
                         <table class="table-bordered text-center">
@@ -1911,10 +1913,10 @@
                         <li>Construction of recharge pit / water harvesting structure will be taken up at successful borewell site.</li>
                         <li>Social Audit will be conducted for all the borewells drilled under this program.</li>
                         <li>A programme management unit (PMU) will be set up at headquarters for effective monitoring of the implementation of the programme.</li>
-                        <li>16.	Roles & responsibilities of various functionaries for implementation of the programme are defined and are included in the GO.</li>
-                        <li>17.	District Collectors will guide and direct all the stakeholders for effective implementation of the programme.</li>
+                        <li>16. Roles & responsibilities of various functionaries for implementation of the programme are defined and are included in the GO.</li>
+                        <li>17. District Collectors will guide and direct all the stakeholders for effective implementation of the programme.</li>
                     </ol>
-                    <div class="table-responsive py-3 py-md-3" >
+                    <div class="table-responsive py-3 py-md-3">
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
@@ -1934,7 +1936,7 @@
                                 <tr>
                                     <td>Eluru</td>
                                     <td>0</td>
-                                    <td> 0   </td>
+                                    <td> 0 </td>
                                 </tr>
                                 <tr>
                                     <td>Pedapadu</td>
@@ -1956,7 +1958,7 @@
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                    <img src="{{asset('assets/images/schemes/jala.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/schemes/jala.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>

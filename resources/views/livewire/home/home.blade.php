@@ -25,9 +25,9 @@
                     <div class="custom position-absolute top-50 start-0 translate-middle-y text-center w-50 ms-auto">
                         {{-- <h5 class="text-primary">Skill Up Denduluru</h5>
                         <p class="text-dark">SkillUp Denduluru is a program designed by Abbaya chowdary, MLA - Denduluru to train the youth on the required technologies as per industry trends and assist them on getting the job </p> --}}
-                        <div class="text-center">
+                        <!-- <div class="text-center">
                             <a href="{{route('skill')}}" class="btn btn-primary rounded text-decoration-none">Register Now!!!</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -35,9 +35,9 @@
                     <div class="custom ms-2 ms-md-5 position-absolute top-50 start-0 translate-middle-y text-center w-50">
                         {{-- <h5 class="text-primary">Skill Up Denduluru</h5>
                         <p class="text-dark">SkillUp Denduluru is a program designed by Abbaya chowdary, MLA- Denduluru to train the youth on the required technologies as per industry trends and assist them on getting the job             </p> --}}
-                        <div class="text-center">
+                        <!-- <div class="text-center">
                             {{-- <a href="{{route('skill')}}" class="btn-sm btn-primary text-decoration-none">Register Now!!!</a> --}}
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
