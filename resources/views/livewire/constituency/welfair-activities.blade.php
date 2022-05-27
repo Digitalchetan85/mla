@@ -74,8 +74,8 @@
                         <div class="text-center">
                             <h5 class="text-center text-primary">YSR Sunna Vaddi Panta Runalu (farmers)</h5>
                             <img class="img-fulid" src="{{asset('assets/images/scheme-logo/sunna.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 4546</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Lakhs) : 39604949</h6>
+                            <h6 class="text-center text-primary">Total No of Beneficiaries : 4,546</h6>
+                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 3,96,04,949</h6>
                         </div>
                     </a>
                 </div>
@@ -84,8 +84,8 @@
                         <div class="text-center">
                             <h5 class="text-center text-primary">YSR Free Crop insurance </h5>
                             <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 5961</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Lakhs) : 39817676</h6>
+                            <h6 class="text-center text-primary">Total No of Beneficiaries : 6,391</h6>
+                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 2,92,86,159</h6>
                         </div>
                     </a>
                 </div>
@@ -94,8 +94,8 @@
                         <div class="text-center">
                             <h5 class="text-center text-primary">YSR Sunna Vaddi (SHGs):</h5>
                             <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 52023</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Lakhs) : 298575368</h6>
+                            <h6 class="text-center text-primary">Total No of Beneficiaries : 18,208</h6>
+                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 34,16,00,000</h6>
                         </div>
                     </a>
                 </div>
@@ -104,8 +104,7 @@
                         <div class="text-center">
                             <h5 class="text-center text-primary">YSR Pension Kanuka </h5>
                             <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 34233</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Lakhs) : 2784150000</h6>
+                            34,233                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 278,41,50,000</h6>
                         </div>
                     </a>
                 </div>
@@ -114,8 +113,8 @@
                         <div class="text-center">
                             <h5 class="text-center text-primary">YSR Cheyutha </h5>
                             <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 16317</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 435856875</h6>
+                            <h6 class="text-center text-primary">Total No of Beneficiaries : 16,317</h6>
+                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 43,58,56,875</h6>
                         </div>
                     </a>
                 </div>
@@ -124,8 +123,8 @@
                         <div class="text-center">
                             <h5 class="text-center text-primary">YSR Aasara </h5>
                             <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 46907</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 1760509863</h6>
+                            <h6 class="text-center text-primary">Total No of Beneficiaries : 57,549</h6>
+                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 107,28,00,000</h6>
                         </div>
                     </a>
                 </div>
@@ -134,8 +133,8 @@
                         <div class="text-center">
                             <h5 class="text-center text-primary">YSR Bima </h5>
                             <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 111</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 15610000</h6>
+                            <h6 class="text-center text-primary">Total No of Beneficiaries : 199</h6>
+                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 2,44,20,000</h6>
                         </div>
                     </a>
                 </div>
@@ -144,8 +143,8 @@
                         <div class="text-center">
                             <h5 class="text-center text-primary">YSR Kapu Nestam </h5>
                             <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 1970</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 40570500</h6>
+                            <h6 class="text-center text-primary">Total No of Beneficiaries : 1,970</h6>
+                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 4,05,70,500</h6>
                         </div>
                     </a>
                 </div>
@@ -155,7 +154,7 @@
                             <h5 class="text-center text-primary">YSR Netanna Nestam </h5>
                             <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
                             <h6 class="text-center text-primary">Total No of Beneficiaries : 1</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 24000</h6>
+                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 24,000</h6>
                         </div>
                     </a>
                 </div>
@@ -164,8 +163,8 @@
                         <div class="text-center">
                             <h5 class="text-center text-primary">Jagananna Chedodu (Rajakas, Tailors & Nayee Brahmins) </h5>
                             <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 1</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 24000</h6>
+                            <h6 class="text-center text-primary">Total No of Beneficiaries : 1720 </h6>
+                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 2,44,60,000</h6>
                         </div>
                     </a>
                 </div>
@@ -175,7 +174,7 @@
                             <h5 class="text-center text-primary">YSR Law Nestham</h5>
                             <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
                             <h6 class="text-center text-primary">Total No of Beneficiaries : 15</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 75000</h6>
+                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 2,25,000</h6>
                         </div>
                     </a>
                 </div>
@@ -184,28 +183,28 @@
                         <div class="text-center">
                             <h5 class="text-center text-primary">YSR Vahana Mitra </h5>
                             <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 2388</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 40653000</h6>
+                            <h6 class="text-center text-primary">Total No of Beneficiaries : 2,388</h6>
+                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 3,06,53,000</h6>
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <!-- <div class="col-md-3">
                     <a href="#scheme17" class="text-decoration-none">
                         <div class="text-center">
-                            <h5 class="text-center text-primary">YSR Vahana Mitra </h5>
+                            <h5 class="text-center text-primary">Dr.YSR Arogya Asara </h5>
                             <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
                             <h6 class="text-center text-primary">Total No of Beneficiaries : 2388</h6>
                             <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 40653000</h6>
                         </div>
                     </a>
-                </div>
+                </div> -->
                 <div class="col-md-3">
                     <a href="#scheme18" class="text-decoration-none">
                         <div class="text-center">
                             <h5 class="text-center text-primary">Dr.YSR Arogya Asara </h5>
                             <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries :8122</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 26504358</h6>
+                            <h6 class="text-center text-primary">Total No of Beneficiaries : 10,950</h6>
+                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 5,59,80,000</h6>
                         </div>
                     </a>
                 </div>
@@ -214,8 +213,8 @@
                         <div class="text-center">
                             <h5 class="text-center text-primary">MSME Restart (YSR Navodayam Scheme): </h5>
                             <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries :8</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 2273234</h6>
+                            <h6 class="text-center text-primary">Total No of Beneficiaries : 8</h6>
+                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 22,73,234</h6>
                         </div>
                     </a>
                 </div>
@@ -225,7 +224,7 @@
                             <h5 class="text-center text-primary">One time Financial Assistance to Archakas/ Imams/ Mouzams /Pastors</h5>
                             <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
                             <h6 class="text-center text-primary">Total No of Beneficiaries : 255</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 1270000</h6>
+                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 12,70,000</h6>
                         </div>
                     </a>
                 </div>
@@ -234,7 +233,8 @@
                         <div class="text-center">
                             <h5 class="text-center text-primary">Dr. YSR Arogya Sri</h5>
                             <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : All the families who has Aarogya Sri cards.</h6>
+                            <h6 class="text-center text-primary">Total No of Beneficiaries : 26,218</h6>
+							<h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 49,51,63,821</h6>
                         </div>
                     </a>
                 </div>
@@ -244,7 +244,7 @@
                             <h5 class="text-center text-primary">Jagananna Thodu</h5>
                             <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
                             <h6 class="text-center text-primary">Total No of Beneficiaries : 4054</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 55798000</h6>
+                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 5,57,98,000</h6>
                         </div>
                     </a>
                 </div>
@@ -253,8 +253,8 @@
                         <div class="text-center">
                             <h5 class="text-center text-primary">Jagananna Gorumudda</h5>
                             <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 40786</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 23633641</h6>
+                            <h6 class="text-center text-primary">Total No of Beneficiaries : 40,786</h6>
+                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 2,36,33,641</h6>
                         </div>
                     </a>
                 </div>
@@ -263,8 +263,8 @@
                         <div class="text-center">
                             <h5 class="text-center text-primary">YSR Sampoorna Poshana</h5>
                             <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 15238</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 167612696</h6>
+                            <h6 class="text-center text-primary">Total No of Beneficiaries : 15,238</h6>
+                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 16,76,12,696</h6>
                         </div>
                     </a>
                 </div>
@@ -273,8 +273,8 @@
                         <div class="text-center">
                             <h5 class="text-center text-primary">Jagananna Vidya Kanuka</h5>
                             <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 34390</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 54918100</h6>
+                            <h6 class="text-center text-primary">Total No of Beneficiaries : 34,390</h6>
+                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 5,49,18,100</h6>
                         </div>
                     </a>
                 </div>
@@ -283,8 +283,8 @@
                         <div class="text-center">
                             <h5 class="text-center text-primary">EBC Nestham</h5>
                             <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 2140</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 32100000</h6>
+                            <h6 class="text-center text-primary">Total No of Beneficiaries : 2,140</h6>
+                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 3,21,00,000</h6>
                         </div>
                     </a>
                 </div>
