@@ -48,7 +48,7 @@
                         <a href="#event3" class="text-decoration-none">
                             <div class="text-center">
 
-                                <h3 class="text-center text-primary py-5">Mandal Review Meetings</h5>
+                                <h3 class="text-center text-primary py-5">Mandal Review <br />Meetings</h5>
                             </div>
                         </a>
                     </div>
