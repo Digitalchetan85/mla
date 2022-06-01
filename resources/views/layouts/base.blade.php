@@ -101,8 +101,7 @@
           <div class="text-center">
             <img src="{{asset('assets/images/sticker1.png')}}" alt="" class="img-fluid">
             
-            {{-- <a href="#" class="text-white text-decoration-none"><i
-                class="fa fa-phone-volume text-white me-2"></i>+91 </a> --}}
+             
           </div>
         </div>
         <div class="col-md-4 align-self-center">
@@ -117,15 +116,15 @@
         <div class="col-md-4 align-self-center">
           <div class="d-flex justify-content-center custom1">
             <div>
-              <a href="#" class="text-white text-decoration-none"><i
-                class="fa fa-phone-volume text-white me-2 fs-4"></i>dendulurumla64@gmail.com</a>
+            <a href="tel:0881251199" class="text-white text-decoration-none"><i
+                class="fa fa-phone-volume text-white me-2"></i>+91 08812-51199</a>
             </div>
           </div>
         </div>
         <div class="col-md-4 align-self-center">
           <div class="d-flex justify-content-center custom2">
             <div>
-              <a href="#" class="text-white text-decoration-none"><i
+              <a href="mailto:dendulurumla64@gmail.com" class="text-white text-decoration-none"><i
                 class="fa fa-envelope text-white me-2 fs-4"></i>dendulurumla64@gmail.com</a>
             </div>
           </div>
@@ -190,10 +189,10 @@
         </div>
         <div class="col-md-4">
           <div class="text-center text-md-end">
-            <i class="fa-brands fa-facebook-f text-white ms-2 border rounded p-1 mt-2"></i>
-            <i class="fa-brands fa-twitter text-white ms-2 border rounded p-1 mt-2"></i>
-            <i class="fa-brands fa-youtube text-white ms-2 border rounded p-1 mt-2"></i>
-            <i class="fa-brands fa-instagram text-white ms-2 border rounded p-1 mt-2"></i>
+          <a href="https://m.facebook.com/kotaru9999" class="text-decoration-none tex-white"><i class="fa-brands fa-facebook-f text-white ms-2 border rounded p-1 mt-2"></i></a>
+          <a href="https://twitter.com/AbbayaChowdary" class="text-decoration-none tex-white"><i class="fa-brands fa-twitter text-white ms-2 border rounded p-1 mt-2"></i></a>
+          <a href="https://youtube.com/channel/UC6odSmHbX9fgBVBgWdZmJLQ" class="text-decoration-none tex-white"> <i class="fa-brands fa-youtube text-white ms-2 border rounded p-1 mt-2"></i></a>
+          <a href="https://www.instagram.com/kotaruabbayachowdary/?igshid=YmMyMTA2M2Y=" class="text-decoration-none tex-white"> <i class="fa-brands fa-instagram text-white ms-2 border rounded p-1 mt-2"></i></a>
           </div>
         </div>
       </div>

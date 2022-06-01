@@ -19,76 +19,73 @@
 </head>
 
 <body>
-<div id="navbar-page" class="sticky-top">
-  <header class="">
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
-      <div class="container">
-        <a class="navbar-brand text-white text-uppercase fw-bold" href="{{route('home')}}"><img class="img-fluid" src="{{asset('assets/images/sticker1.png')}}" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav ms-auto mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="{{route('home')}}">Home </span></a>
+  <div id="navbar-page" class="sticky-top">
+    <header class="">
+      <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <div class="container">
+          <a class="navbar-brand text-white text-uppercase fw-bold" href="{{route('home')}}"><img class="img-fluid" src="{{asset('assets/images/sticker1.png')}}" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{{route('home')}}">Home </span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="false">
+                  My Constituency </span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" tabindex="-1" href="{{route('development')}}">Development Activities</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" tabindex="-1" href="{{route('welfair')}}">Welfare Activities</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Events</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="{{route('goodmorning')}}">GADAPA GADAPAKU MANA PRABHUTVAM </a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="{{route('skill')}}">Skill up Denduluru</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="{{route('jagan')}}">Jagan Maata - Abbayya Bata</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Get In Touch</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  {{-- <li><a class="dropdown-item" href="{{route('contact')}}">Contact</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li> --}}
+              <li><a class="dropdown-item" href="{{route('registration')}}">Contact Us</a></li>
+            </ul>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown"
-                data-hover="dropdown" data-delay="1000" data-close-others="false">
-                My Constituency </span>
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" tabindex="-1" href="{{route('development')}}">Development Activities</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" tabindex="-1" href="{{route('welfair')}}">Welfare Activities</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Events</span>
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="{{route('goodmorning')}}">GADAPA GADAPAKU MANA PRABHUTVAM </a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="{{route('skill')}}">Skill up Denduluru</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="{{route('jagan')}}">Jagan Maata - Abbayya Bata</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Get In Touch</span>
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                {{-- <li><a class="dropdown-item" href="{{route('contact')}}">Contact</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li> --}}
-                <li><a class="dropdown-item" href="{{route('registration')}}">Contact Us</a></li>
-              </ul>
-            </li>
-          </ul>
-          <div class="d-flex">
-          <a href="https://m.facebook.com/kotaru9999" class="text-decoration-none"><i class="fa-brands fa-facebook-f text-white me-3 fs-4"></i></a>
-          <a href="https://twitter.com/AbbayaChowdary"><i class="fa-brands fa-twitter text-white me-3 fs-4"></i></a>
-          <a href="https://youtube.com/channel/UC6odSmHbX9fgBVBgWdZmJLQ"> <i class="fa-brands fa-youtube text-white me-3 fs-4"></i></a>
-          <a href="https://www.instagram.com/kotaruabbayachowdary/?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram text-white me-2 fs-4"></i></a>
+            </ul>
+            <div class="d-flex">
+              <a href="https://m.facebook.com/kotaru9999" class="text-decoration-none"><i class="fa-brands fa-facebook-f text-white me-3 fs-4"></i></a>
+              <a href="https://twitter.com/AbbayaChowdary"><i class="fa-brands fa-twitter text-white me-3 fs-4"></i></a>
+              <a href="https://youtube.com/channel/UC6odSmHbX9fgBVBgWdZmJLQ"> <i class="fa-brands fa-youtube text-white me-3 fs-4"></i></a>
+              <a href="https://www.instagram.com/kotaruabbayachowdary/?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram text-white me-2 fs-4"></i></a>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
-  </header>
-</div>
-  
+      </nav>
+    </header>
+  </div>
+
 
 
   {{$slot}}
@@ -100,33 +97,29 @@
         <div class="col-md-12">
           <div class="text-center">
             <img src="{{asset('assets/images/sticker1.png')}}" alt="" class="img-fluid">
-            
-            {{-- <a href="#" class="text-white text-decoration-none"><i
-                class="fa fa-phone-volume text-white me-2"></i>+91 </a> --}}
+
+
           </div>
         </div>
         <div class="col-md-4 align-self-center">
           <div class="d-flex justify-content-center custom">
             <div>
-              <a href="#" class="text-white text-decoration-none"><i
-                class="fa fa-map text-white me-2 fs-4"></i>MLA- Denduluru Camp Office,<br/>
-                Plot No :22, NCC Canteen Road,<br/>Mothevari Thota, Eluru - 534 002</a>
+              <a href="#" class="text-white text-decoration-none"><i class="fa fa-map text-white me-2 fs-4"></i>MLA- Denduluru Camp Office,<br />
+                Plot No :22, NCC Canteen Road,<br />Mothevari Thota, Eluru - 534 002</a>
             </div>
           </div>
         </div>
         <div class="col-md-4 align-self-center">
           <div class="d-flex justify-content-center custom1">
             <div>
-              <a href="#" class="text-white text-decoration-none"><i
-                class="fa fa-phone-volume text-white me-2 fs-4"></i>dendulurumla64@gmail.com</a>
+              <a href="tel:0881251199" class="text-white text-decoration-none"><i class="fa fa-phone-volume text-white me-2"></i>+91 08812-51199</a>
             </div>
           </div>
         </div>
         <div class="col-md-4 align-self-center">
           <div class="d-flex justify-content-center custom2">
             <div>
-              <a href="#" class="text-white text-decoration-none"><i
-                class="fa fa-envelope text-white me-2 fs-4"></i>dendulurumla64@gmail.com</a>
+              <a href="mailto:dendulurumla64@gmail.com" class="text-white text-decoration-none"><i class="fa fa-envelope text-white me-2 fs-4"></i>dendulurumla64@gmail.com</a>
             </div>
           </div>
         </div>
@@ -185,15 +178,14 @@
           <p class="mb-0 py-2 text-center text-white">© Copyrights ABBAYA CHOWDARY KOTARU 2021.</p>
         </div>
         <div class="col-md-4">
-          <p class="text-white mb-0 py-2 text-center">Design and Developed by <a href="http://logodesignerbangalore.com/" target="_blank"
-            class="copyright-link text-decoration-none text-white">LDCB</a></p>
+          <p class="text-white mb-0 py-2 text-center">Design and Developed by <a href="http://logodesignerbangalore.com/" target="_blank" class="copyright-link text-decoration-none text-white">LDCB</a></p>
         </div>
         <div class="col-md-4">
           <div class="text-center text-md-end">
-            <i class="fa-brands fa-facebook-f text-white ms-2 border rounded p-1 mt-2"></i>
-            <i class="fa-brands fa-twitter text-white ms-2 border rounded p-1 mt-2"></i>
-            <i class="fa-brands fa-youtube text-white ms-2 border rounded p-1 mt-2"></i>
-            <i class="fa-brands fa-instagram text-white ms-2 border rounded p-1 mt-2"></i>
+            <a href="https://m.facebook.com/kotaru9999" class="text-decoration-none tex-white"><i class="fa-brands fa-facebook-f text-white ms-2 border rounded p-1 mt-2"></i></a>
+            <a href="https://twitter.com/AbbayaChowdary" class="text-decoration-none tex-white"><i class="fa-brands fa-twitter text-white ms-2 border rounded p-1 mt-2"></i></a>
+            <a href="https://youtube.com/channel/UC6odSmHbX9fgBVBgWdZmJLQ" class="text-decoration-none tex-white"> <i class="fa-brands fa-youtube text-white ms-2 border rounded p-1 mt-2"></i></a>
+            <a href="https://www.instagram.com/kotaruabbayachowdary/?igshid=YmMyMTA2M2Y=" class="text-decoration-none tex-white"> <i class="fa-brands fa-instagram text-white ms-2 border rounded p-1 mt-2"></i></a>
           </div>
         </div>
       </div>
@@ -212,16 +204,18 @@
   <script src="{{asset('assets/js/jquery.bootstrap-dropdown-hover.min.js')}}"></script>
   <script src="{{asset('assets/js/main.js')}}"></script>
   <script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/628cc1ee7b967b117990f56d/1g3qtb3ao';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
+    var Tawk_API = Tawk_API || {},
+      Tawk_LoadStart = new Date();
+    (function() {
+      var s1 = document.createElement("script"),
+        s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/628cc1ee7b967b117990f56d/1g3qtb3ao';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--

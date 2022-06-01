@@ -104,7 +104,7 @@
                                 <div class="col-md-12">
                                     <div class="input-group mb-3">
                                         <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
-                                                class="fa fa-building text-white"></i></span>
+                                                class="fa fa-address-card text-white"></i></span>
                                         <input type="text" class="form-control" placeholder="Address"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
@@ -114,7 +114,7 @@
                                 <div class="col-md-6">
                                     <div class="input-group mb-3">
                                         <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
-                                                class="fa fa-building text-white"></i></span>
+                                                class="fa fa-calendar-check text-white"></i></span>
                                         <input type="text" class="form-control" placeholder="SSC Year of Pass"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
@@ -122,7 +122,7 @@
                                 <div class="col-md-6">
                                     <div class="input-group mb-3">
                                         <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
-                                                class="fa fa-building text-white"></i></span>
+                                                class="fa fa-percent text-white"></i></span>
                                         <input type="text" class="form-control" placeholder="SSC %"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
@@ -132,7 +132,7 @@
                                 <div class="col-md-6">
                                     <div class="input-group mb-3">
                                         <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
-                                                class="fa fa-building text-white"></i></span>
+                                                class="fa fa-calendar-check text-white"></i></span>
                                         <input type="text" class="form-control" placeholder="Inter Year of Pass"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
@@ -140,7 +140,7 @@
                                 <div class="col-md-6">
                                     <div class="input-group mb-3">
                                         <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
-                                                class="fa fa-building text-white"></i></span>
+                                                class="fa fa-percent text-white"></i></span>
                                         <input type="text" class="form-control" placeholder="Inter %"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
@@ -150,7 +150,7 @@
                                 <div class="col-md-6">
                                     <div class="input-group mb-3">
                                         <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
-                                                class="fa fa-building text-white"></i></span>
+                                                class="fa fa-book-open-reader text-white"></i></span>
                                         <select class="form-select" aria-label="Default select example">
                                             <option selected>--Qualification--</option>
                                             <option value="1">Degree</option>
@@ -162,7 +162,7 @@
                                 <div class="col-md-6">
                                     <div class="input-group mb-3">
                                         <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
-                                                class="fa fa-building text-white"></i></span>
+                                                class="fa fa-graduation-cap text-white"></i></span>
                                         <input type="text" class="form-control" placeholder="Graduation Stream"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
@@ -173,7 +173,7 @@
                                 <div class="col-md-6">
                                     <div class="input-group mb-3">
                                         <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
-                                                class="fa fa-building text-white"></i></span>
+                                                class="fa fa-calendar-check text-white"></i></span>
                                         <input type="text" class="form-control" placeholder="Graduation Year of Pass"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
@@ -181,7 +181,7 @@
                                 <div class="col-md-6">
                                     <div class="input-group mb-3">
                                         <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
-                                                class="fa fa-building text-white"></i></span>
+                                                class="fa fa-percent text-white"></i></span>
                                         <input type="text" class="form-control" placeholder="Graduation %"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
@@ -191,7 +191,7 @@
                                 <div class="col-md-6">
                                     <div class="input-group mb-3">
                                         <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
-                                                class="fa fa-building text-white"></i></span>
+                                                class="fa fa-calendar-check text-white"></i></span>
                                         <input type="text" class="form-control"
                                             placeholder="Post Graduation Year of Pass" aria-label="Username"
                                             aria-describedby="basic-addon1">
@@ -200,7 +200,7 @@
                                 <div class="col-md-6">
                                     <div class="input-group mb-3">
                                         <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
-                                                class="fa fa-building text-white"></i></span>
+                                                class="fa fa-percent text-white"></i></span>
                                         <input type="text" class="form-control" placeholder="Post Graduation %"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>
@@ -210,7 +210,7 @@
                                 <div class="col-md-12">
                                     <div class="input-group mb-3">
                                         <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
-                                                class="fa fa-building text-white"></i></span>
+                                                class="fa fa-certificate text-white"></i></span>
                                         <input type="text" class="form-control" placeholder="Any Trainings (if Any)"
                                             aria-label="Username" aria-describedby="basic-addon1">
                                     </div>

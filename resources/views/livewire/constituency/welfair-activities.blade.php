@@ -1656,7 +1656,7 @@
             <div class="row">
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/onetime.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
@@ -2068,7 +2068,7 @@
             <div class="row">
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/ebc.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
