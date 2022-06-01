@@ -104,7 +104,7 @@
         <div class="col-md-4 align-self-center">
           <div class="d-flex justify-content-center custom">
             <div>
-              <a href="#" class="text-white text-decoration-none"><i class="fa fa-map text-white me-2 fs-4"></i>MLA- Denduluru Camp Office,<br />
+              <a href="#" class="text-white text-decoration-none"><i class="fa fa-map-location-dot text-white me-2 fs-4"></i>MLA- Denduluru Camp Office,<br />
                 Plot No :22, NCC Canteen Road,<br />Mothevari Thota, Eluru - 534 002</a>
             </div>
           </div>
