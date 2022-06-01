@@ -21,7 +21,8 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{asset('assets/images/2.png')}}" class="img-fluid w-100" alt="...">
+                <a href="{{route('skill')}}" class="text-decoration-none"> <img src="{{asset('assets/images/2.png')}}" class="img-fluid w-100" alt="..."></a>
+                    
                     <div class="custom position-absolute top-50 start-0 translate-middle-y text-center w-50 ms-auto">
                         {{-- <h5 class="text-primary">Skill Up Denduluru</h5>
                         <p class="text-dark">SkillUp Denduluru is a program designed by Abbaya chowdary, MLA - Denduluru to train the youth on the required technologies as per industry trends and assist them on getting the job </p> --}}
@@ -53,7 +54,7 @@
                     </div>
                 </div>
                 <div class="col-md-8 bg-white align-self-center shadow py-3 rounded">
-                    <h2 class="text-primary">About ABBAYA CHOWDARY KOTARU</h2>
+                    <h2 class="text-primary">About ABBAYA CHOWDARY</h2>
                     <p>Abbaya Chowdary is Member of legislative assembly (MLA) in Government of Andhra Pradesh. The
                         young MLA has taken the responsibility to develop constituency with his exceptional people,
                         project and program management skills and excellent relationship management skills.</p>

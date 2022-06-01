@@ -1,14 +1,14 @@
 <div id="body">
-    <div id="section-header" class="py-3 py-md-5 bg-light">
+    <div id="section-header" class="py-2 py-md-2 bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="border-start border-primary border-5">
-                        <h2 class="fs-3 ms-3 text-primary">Register</h2>
+                        <h2 class="fs-3 ms-3 text-success">Register</h2>
                         <nav aria-label="breadcrumb" class="ms-3">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{route('home')}}">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Register</li>
+                                <li class="breadcrumb-item"><a href="{{route('home')}}" class="text-success text-decoration-none">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page" class="text-success text-decoration-none">Register</li>
                             </ol>
                         </nav>
                     </div>
@@ -59,7 +59,7 @@
                                             <div class="input-group mb-3 rounded">
                                                 <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i class="fa fa-building text-white"></i></span>
                                                 <select class="form-select" aria-label="Default select example">
-                                                    <option selected>--Mandalam--</option>
+                                                    <option selected>--Mandal--</option>
                                                     <option value="1">Denduluru</option>
                                                     <option value="2">Eluru</option>
                                                     <option value="3">Pedapadu</option>

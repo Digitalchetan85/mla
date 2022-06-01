@@ -1,10 +1,10 @@
 <div>
-    <div id="section-header" class="py-3 py-md-5 bg-light">
+    <div id="section-header" class="py-2 py-md-2 bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="border-start border-primary border-5">
-                        <h2 class="fs-3 ms-3 text-primary">Welfare Activities</h2>
+                        <h2 class="fs-3 text-success ms-3 text-primary">Welfare Activities</h2>
                         <nav aria-label="breadcrumb" class="ms-3">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="{{route('home')}}">Home</a></li>
@@ -21,21 +21,21 @@
     <div id="test" class="py-3 py-md-5 bg-light">
         <div class="container">
             <div class="row g-3">
-                <h2 class="text-primary text-center">Welfare Schemes</h2>
+                <h2 class="text-success text-center py-3">Welfare Schemes</h2>
                 <p class="">The Government of Andhra Pradesh is committed to the Welfare and Development of all segments
                     of the society. Government have announced "Navarathnalu" comprising of various welfare and
                     developmental programmes to achieve this objective.</p>
                 <h3 class="text-center text-success">DENDULURU CONSTITUENCY WISE BENEFICIARIES UNDER VARIOUS WELFARE
                     SCHEMES FROM JUNE 2019 TO MAY 2022</h3>
-                <h6 class="text-center text-primary">Total No of beneficiaries : 3,83,686</h6>
-                <h6 class="text-center text-primary">Total Benefited Amount (In Crores) : 857.59</h6>
+                <h6 class="text-center text-danger">Total No of beneficiaries : 3,83,686</h6>
+                <h6 class="text-center text-danger">Total Benefited Amount (In Crores) : 857.59</h6>
 
                 <div class="col-md-3">
-                    <div class="bg-white shadow py-3 rounded">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
                         <a href="#scheme1" class="text-decoration-none">
                             <div class="text-center ">
                                 <h5 class="text-center text-success">Jagananna Amma Vodi</h5>
-                                <img class="img-fulid" src="{{asset('assets/images/scheme-logo/amma.png')}}" />
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/amma.png')}}" />
                                 <h6 class="text-center text-danger">Total No of Beneficiaries : 40,516</h6>
                                 <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 53,14,08,000
                                 </h6>
@@ -44,269 +44,337 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <a href="#scheme2" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-success">YSR Rythu Bharosa</h5>
-                            <img class="img-fulid" src="{{asset('assets/images/scheme-logo/rytu-bharosa.png')}}" />
-                            <h6 class="text-center text-danger">Total No of Beneficiaries : 46,456</h6>
-                            <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 188,14,68,000</h6>
-                        </div>
-                    </a>
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme2" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">YSR Rythu Bharosa</h5>
+                                <img class="img-fulid mb-2 mb-2" src="{{asset('assets/images/scheme-logo/rytu-bharosa.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 46,456</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 188,14,68,000</h6>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-md-3">
-                    <a href="#scheme3" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-success">Jagananna Vasati Deevena</h5>
-                            <img class="img-fulid" src="{{asset('assets/images/scheme-logo/vasati.png')}}" />
-                            <h6 class="text-center text-success">Total No of Beneficiaries : 4,844</h6>
-                            <h6 class="text-center text-success">Total Benefitted Amount (In Rupees) : 12,88,88,900</h6>
-                        </div>
-                    </a>
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme3" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">Jagananna Vasati Deevena</h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/vasati.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 4,844</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 12,88,88,900</h6>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-md-3">
-                    <a href="#scheme4" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">Jagananna Vidya Deevena</h5>
-                            <img class="img-fulid" src="{{asset('assets/images/scheme-logo/vidya.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 8,290</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 20,14,48,588</h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#scheme5" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">YSR Sunna Vaddi Panta Runalu (farmers)</h5>
-                            <img class="img-fulid" src="{{asset('assets/images/scheme-logo/sunna.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 4,546</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 3,96,04,949</h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#scheme6" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">YSR Free Crop insurance </h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 6,391</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 2,92,86,159</h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#scheme7" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">YSR Sunna Vaddi (SHGs):</h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 18,208</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 34,16,00,000</h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#scheme8" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">YSR Pension Kanuka </h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            34,233 <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) :
-                                278,41,50,000</h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#scheme9" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">YSR Cheyutha </h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 16,317</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 43,58,56,875</h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#scheme10" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">YSR Aasara </h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 57,549</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 107,28,00,000
-                            </h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#scheme11" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">YSR Bima </h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 199</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 2,44,20,000</h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#scheme12" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">YSR Kapu Nestam </h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 1,970</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 4,05,70,500</h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#scheme13" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">YSR Netanna Nestam </h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 1</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 24,000</h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#scheme14" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">Jagananna Chedodu (Rajakas, Tailors & Nayee Brahmins)
-                            </h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 1720 </h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 2,44,60,000</h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#scheme15" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">YSR Law Nestham</h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 15</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 2,25,000</h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#scheme16" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">YSR Vahana Mitra </h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 2,388</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 3,06,53,000</h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#scheme17" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">Dr.YSR Arogya Asara </h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 10,950</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 5,59,80,000</h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#scheme18" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">MSME Restart (YSR Navodayam Scheme): </h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 8</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 22,73,234</h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#scheme19" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">One time Financial Assistance to Archakas/ Imams/
-                                Mouzams /Pastors</h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 255</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 12,70,000</h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#scheme20" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">Dr. YSR Arogya Sri</h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 26,218</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 49,51,63,821</h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#scheme21" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">Jagananna Thodu</h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 4054</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 5,57,98,000</h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#scheme22" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">Jagananna Gorumudda</h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 40,786</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 2,36,33,641</h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#scheme23" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">YSR Sampoorna Poshana</h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 15,238</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 16,76,12,696</h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#scheme24" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">Jagananna Vidya Kanuka</h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 34,390</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 5,49,18,100</h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#scheme25" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">EBC Nestham</h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 2,140</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 3,21,00,000</h6>
-                        </div>
-                    </a>
-                </div>
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme4" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">Jagananna Vidya Deevena</h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/vidya.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 8,290</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 20,14,48,588</h6>
+                            </div>
+                        </a>
+                    </div>
 
-                <div class="col-md-3">
-                    <a href="#scheme26" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">Jala Kala</h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 167</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 3,08,56,766</h6>
-                        </div>
-                    </a>
                 </div>
-
                 <div class="col-md-3">
-                    <a href="#scheme27" class="text-decoration-none">
-                        <div class="text-center">
-                            <h5 class="text-center text-primary">CMRF & LOC</h5>
-                            <img class="img-fulid" src="{{asset('assets/images/test.png')}}" />
-                            <h6 class="text-center text-primary">Total No of Beneficiaries : 639</h6>
-                            <h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 4,56,98,100</h6>
-                        </div>
-                    </a>
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme5" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">YSR Sunna Vaddi Panta Runalu (farmers)</h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/sunna.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 4,546</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 3,96,04,949</h6>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme6" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">YSR Free Crop insurance </h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/crop.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 6,391</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 2,92,86,159</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme7" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">YSR Sunna Vaddi <br />(SHGs)</h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/sunna.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 18,208</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 34,16,00,000</h6>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme8" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">YSR Pension Kanuka </h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/pension.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 34,233</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) :
+                                    278,41,50,000</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme9" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">YSR Cheyutha </h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/cheyutha.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 16,317</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 43,58,56,875</h6>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme10" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">YSR Aasara </h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/asara.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 57,549</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 107,28,00,000
+                                </h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme11" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">YSR Bima </h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/bima.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 199</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 2,44,20,000</h6>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme12" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">YSR Kapu Nestam </h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/kapu.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 1,970</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 4,05,70,500</h6>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme13" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">YSR Netanna Nestam </h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/netanna.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 1</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 24,000</h6>
+                            </div>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="col-md-3">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme14" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">Jagananna Chedodu <br />(Rajakas, Tailors & Nayee Brahmins)
+                                </h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/neta.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 1720 </h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 2,44,60,000</h6>
+                            </div>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="col-md-3">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme15" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">YSR Law Nestham</h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/law.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 15</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 2,25,000</h6>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme16" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">YSR Vahana Mitra </h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/vahana.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 2,388</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 3,06,53,000</h6>
+                            </div>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="col-md-3">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme17" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">Dr.YSR Arogya Asara </h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/aarogya-aasara.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 10,950</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 5,59,80,000</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme18" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">MSME Restart <br /> (YSR Navodayam Scheme) </h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/navo.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 8</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 22,73,234</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme19" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">One time Financial Assistance to Archakas/ Imams/
+                                    Mouzams /Pastors</h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/test.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 255</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 12,70,000</h6>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme20" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">Dr. YSR Arogya Sri</h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/arogya.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 26,218</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 49,51,63,821</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme21" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">Jagananna Thodu</h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/thodu.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 4054</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 5,57,98,000</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme22" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">Jagananna Gorumudda</h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/goru.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 40,786</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 2,36,33,641</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme23" class="text-decoration-none">
+
+                            <div class="text-center">
+                                <h5 class="text-center text-success">YSR Sampoorna Poshana</h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/samporna.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 15,238</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 16,76,12,696</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme24" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">Jagananna Vidya Kanuka</h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/vidya2.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 34,390</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 5,49,18,100</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme25" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">EBC Nestham</h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/ebc.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 2,140</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 3,21,00,000</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme26" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">Jala Kala</h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/jala.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 167</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 3,08,56,766</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="bg-white shadow py-3 rounded" style="height:320px;">
+                        <a href="#scheme27" class="text-decoration-none">
+                            <div class="text-center">
+                                <h5 class="text-center text-success">CMRF & LOC</h5>
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/cmrf.png')}}" />
+                                <h6 class="text-center text-danger">Total No of Beneficiaries : 639</h6>
+                                <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 4,56,98,100</h6>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -322,9 +390,9 @@
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">Jagananna Amma Vodi</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 40,516</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 53,14,08,000</h6>
+                    <h2 class="fs-3 text-success" >Jagananna Amma Vodi</h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 40,516</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 53,14,08,000</h6>
                     <p class="">
                         The Hon’ble Chief Minister, Government of Andhra Pradesh has announced a flagship programme
                         “AMMA VODI” as a part of “NAVARATNALU” for providing financial assistance to each mother or
@@ -338,33 +406,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br />Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount<br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td> 6,554 </td>
-                                    <td>2,19,78,000 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold"> 6,554 </td>
+                                    <td class="fw-bold">2,19,78,000 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>8,829</td>
-                                    <td> 13,24,35,000 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">8,829</td>
+                                    <td class="fw-bold"> 13,24,35,000 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td> 13,413</td>
-                                    <td>20,11,95,000 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold"> 13,413</td>
+                                    <td class="fw-bold">20,11,95,000 </td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td> 11,720 </td>
-                                    <td>17,58,00,000 </td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold"> 11,720 </td>
+                                    <td class="fw-bold">17,58,00,000 </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -380,9 +448,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">YSR Rythu Bharosa</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 46,456</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 188,14,68,000</h6>
+                    <h2 class="fs-3 text-success">YSR Rythu Bharosa</h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 46,456</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 188,14,68,000</h6>
                     <p class="">
                         YSR Rythu Bharosa is a program launched by the Government of Andhra Pradesh to financially
                         assist farmers by depositing an amount of ₹13,500 per annum in three installments, in
@@ -394,33 +462,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br />Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount <br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td> 7,804 </td>
-                                    <td>31,60,62,000 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold"> 7,804 </td>
+                                    <td class="fw-bold">31,60,62,000 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>4,659</td>
-                                    <td> 18,86,89,500 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">4,659</td>
+                                    <td class="fw-bold"> 18,86,89,500 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td> 19,431</td>
-                                    <td>78,69,55,500 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold"> 19,431</td>
+                                    <td class="fw-bold">78,69,55,500 </td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td> 14,562 </td>
-                                    <td>58,97,61,000</td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold"> 14,562 </td>
+                                    <td class="fw-bold">58,97,61,000</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -443,13 +511,13 @@
             <div class="row">
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/vasati.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">Jagananna Vasati Deevena </h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 4,844</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 12,88,88,900</h6>
+                    <h2 class="fs-3 text-success">Jagananna Vasati Deevena </h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 4,844</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 12,88,88,900</h6>
                     <p class="">
                         Under the <strong>Jagananna Vasathi Deevena Scheme</strong>, scholarships will be provided to
                         all eligible candidates. The scholarship will be provided to all of the poverty line categories
@@ -461,33 +529,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br />Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount <br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td> 1,291 </td>
-                                    <td>3,17,26,400 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold"> 1,291 </td>
+                                    <td class="fw-bold">3,17,26,400 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>524</td>
-                                    <td> 1,49,62,500 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">524</td>
+                                    <td class="fw-bold"> 1,49,62,500 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td> 1,278</td>
-                                    <td>3,60,00,000 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold"> 1,278</td>
+                                    <td class="fw-bold">3,60,00,000 </td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td> 1,751 </td>
-                                    <td>4,62,00,000 </td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold"> 1,751 </td>
+                                    <td class="fw-bold">4,62,00,000 </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -503,9 +571,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">Jagananna Vidya Deevena</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 8,290</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 86,49,53,250</h6>
+                    <h2 class="fs-3 text-success">Jagananna Vidya Deevena</h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 8,290</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 86,49,53,250</h6>
                     <p class="">
                         The scholarship scheme was launched by the Andhra Pradesh Government, mainly the chief minister
                         of Andhra Pradesh that is Mr. Jagan Mohan Reddy. Through the implementation of this scheme,
@@ -520,33 +588,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br />Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount <br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td> 1,304 </td>
-                                    <td>4,80,31,196 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold"> 1,304 </td>
+                                    <td class="fw-bold">4,80,31,196 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>559</td>
-                                    <td> 2,38,74,000 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">559</td>
+                                    <td class="fw-bold"> 2,38,74,000 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td> 1,477</td>
-                                    <td>3,11,43,392 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold"> 1,477</td>
+                                    <td class="fw-bold">3,11,43,392 </td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td> 4,950 </td>
-                                    <td>9,84,00,000 </td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold"> 4,950 </td>
+                                    <td class="fw-bold">9,84,00,000 </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -558,7 +626,7 @@
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/viday.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -569,13 +637,13 @@
             <div class="row">
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/sunna-farmer.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">YSR Sunna Vaddi Panta Runalu (farmers)</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 4,546</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 3,96,04,949</h6>
+                    <h2 class="fs-3 text-success">YSR Sunna Vaddi Panta Runalu (farmers)</h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 4,546</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 3,96,04,949</h6>
                     <p class="">
                         The Hon’ble Chief Minister, Government of Andhra Pradesh has announced a flagship programme
                         “AMMA VODI” as a part of “NAVARATNALU” for providing financial assistance to each mother or
@@ -589,33 +657,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br />Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount<br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td> 1,928 </td>
-                                    <td>35,76,595 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold"> 1,928 </td>
+                                    <td class="fw-bold">35,76,595 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>71</td>
-                                    <td> 8,78,354 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">71</td>
+                                    <td class="fw-bold"> 8,78,354 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td> 659</td>
-                                    <td>10,85,000 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold"> 659</td>
+                                    <td class="fw-bold">10,85,000 </td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td> 1,888 </td>
-                                    <td>3,40,65,000 </td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold"> 1,888 </td>
+                                    <td class="fw-bold">3,40,65,000 </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -624,9 +692,9 @@
                         <!-- <a href="{{route('contact')}}" class="btn btn-primary">Contact</a> -->
                     </div>
                     <div class="">
-                        <h2 class="fs-3">Input subsidy to Farmers</h2>
-                        <h6 class="text-primary">Total No of Beneficiaries : 5,138</h6>
-                        <h6 class="text-primary">Benefitted Amount (In Rupees) : 5,26,01,700</h6>
+                        <h2 class="fs-3 text-success">Input subsidy to Farmers</h2>
+                        <h6 class="text-danger">Total No of Beneficiaries : 5,138</h6>
+                        <h6 class="text-danger">Benefitted Amount (In Rupees) : 5,26,01,700</h6>
                         <p class="">
                             The program’s primary purpose is to provide crop insurance to all of the state’s farmers.
                             This system will cover all-natural disasters, such as solid rainfall, droughts, cyclones,
@@ -639,33 +707,33 @@
                             <table class="table-bordered text-center">
                                 <thead>
                                     <tr>
-                                        <th scope="col" class="text-center"> Mandal</th>
+                                        <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                        <th scope="col" class="text-center">No of Beneficiaries</th>
-                                        <th scope="col">Benefitted Amount(In Rupees)</th>
+                                        <th scope="col" class="text-center text-danger">No of Beneficiaries</th>
+                                        <th scope="col" class="text-center text-danger">Benefitted Amount<br />(In Rupees)</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Denduluru</td>
-                                        <td> 1,830 </td>
-                                        <td>2,08,65,000 </td>
+                                        <td class="fw-bold">Denduluru</td>
+                                        <td class="fw-bold"> 1,830 </td>
+                                        <td class="fw-bold">2,08,65,000 </td>
 
                                     </tr>
                                     <tr>
-                                        <td>Eluru</td>
-                                        <td>593</td>
-                                        <td> 42,14,700 </td>
+                                        <td class="fw-bold">Eluru</td>
+                                        <td class="fw-bold">593</td>
+                                        <td class="fw-bold"> 42,14,700 </td>
                                     </tr>
                                     <tr>
-                                        <td>Pedapadu</td>
-                                        <td> 2,220</td>
-                                        <td>1,36,70,000 </td>
+                                        <td class="fw-bold">Pedapadu</td>
+                                        <td class="fw-bold"> 2,220</td>
+                                        <td class="fw-bold">1,36,70,000 </td>
                                     </tr>
                                     <tr>
-                                        <td> Pedavegi</td>
-                                        <td> 495 </td>
-                                        <td>1,38,52,000 </td>
+                                        <td class="fw-bold"> Pedavegi</td>
+                                        <td class="fw-bold"> 495 </td>
+                                        <td class="fw-bold">1,38,52,000 </td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -685,9 +753,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">YSR Free Crop insurance </h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 6,391</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 2,92,86,159</h6>
+                    <h2 class="fs-3 text-success">YSR Free Crop insurance </h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 6,391</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 2,92,86,159</h6>
                     <p class="">
                         The chief minister of Andhra Pradesh has launched <strong>YSR Crop Insurance Scheme</strong>.
                         Under this scheme crop Insurance will provide to the farmers for the loss of all the notified
@@ -700,33 +768,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br />Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount<br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td> 4,309 </td>
-                                    <td>1,78,21,321 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold"> 4,309 </td>
+                                    <td class="fw-bold">1,78,21,321 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>163</td>
-                                    <td> 60,14,971 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">163</td>
+                                    <td class="fw-bold"> 60,14,971 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td> 774</td>
-                                    <td>62,80,000 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold"> 774</td>
+                                    <td class="fw-bold">62,80,000 </td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td> 715 </td>
-                                    <td>97,01,384 </td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold"> 715 </td>
+                                    <td class="fw-bold">97,01,384 </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -738,7 +806,7 @@
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/crop.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -749,13 +817,13 @@
             <div class="row">
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/ysr-sunna-vaddi.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">YSR Sunna Vaddi (SHGs)</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 18,208</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 34,16,00,000</h6>
+                    <h2 class="fs-3 text-success">YSR Sunna Vaddi (SHGs)</h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 18,208</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 34,16,00,000</h6>
                     <p class="">
                         The scheme intends to provide zero interest loans for women in self help groups. To reduce
                         interest burden on poor SHG women, it is proposed to pay interest portion for the FY 2019-20 on
@@ -778,33 +846,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br />Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount<br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td> 4,689</td>
-                                    <td>10,20,00,000 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold"> 4,689</td>
+                                    <td class="fw-bold">10,20,00,000 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>2,490</td>
-                                    <td> 2,96,00,000 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">2,490</td>
+                                    <td class="fw-bold"> 2,96,00,000 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td> 4,903</td>
-                                    <td>9,26,00,000 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold"> 4,903</td>
+                                    <td class="fw-bold">9,26,00,000 </td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td> 6,126</td>
-                                    <td>11,74,00,000</td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold"> 6,126</td>
+                                    <td class="fw-bold">11,74,00,000</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -820,9 +888,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">YSR Pension Kanuka </h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 34,233</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 278,41,50,000</h6>
+                    <h2 class="fs-3 text-success">YSR Pension Kanuka </h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 34,233</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 278,41,50,000</h6>
                     <p class="">
                         The Government of Andhra Pradesh is committed to the Welfare and Development of all segments of
                         the society. Government have announced "Navarathnalu" comprising of various welfare and
@@ -843,33 +911,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br />Beneficiaries</th>
+                                    <th scope="col"class="text-center text-danger">Benefitted Amount <br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td> 8,860 </td>
-                                    <td>70,88,00,000 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold"> 8,860 </td>
+                                    <td class="fw-bold">70,88,00,000 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>5,103</td>
-                                    <td> 45,37,50,000 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">5,103</td>
+                                    <td class="fw-bold"> 45,37,50,000 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td> 8,872</td>
-                                    <td>70,97,60,000 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold"> 8,872</td>
+                                    <td class="fw-bold">70,97,60,000 </td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td> 11,398 </td>
-                                    <td>91,18,40,000 </td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold"> 11,398 </td>
+                                    <td class="fw-bold">91,18,40,000 </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -881,7 +949,7 @@
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/pension1.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -896,9 +964,9 @@
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">YSR Cheyutha</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 16,317</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 43,58,56,875</h6>
+                    <h2 class="fs-3 text-success text-success">YSR Cheyutha</h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 16,317</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 43,58,56,875</h6>
                     <p class="">
                         This scheme aims at equipping women of SC/ST/OBC/minority castes. The Financial benefit of Rs.
                         75000 is to be provided over a period of four years to those women who come under 45 to 60 years
@@ -915,33 +983,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br /> Beneficiaries</th>
+                                    <th scope="col">Benefitted Amount <br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td> 3,509 </td>
-                                    <td>11,91,30,125 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold"> 3,509 </td>
+                                    <td class="fw-bold">11,91,30,125 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>4,305</td>
-                                    <td> 8,07,18,750 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">4,305</td>
+                                    <td class="fw-bold"> 8,07,18,750 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td> 4,196</td>
-                                    <td>15,52,52,000 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold"> 4,196</td>
+                                    <td class="fw-bold">15,52,52,000 </td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td> 4,307 </td>
-                                    <td>8,07,56,000 </td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold"> 4,307 </td>
+                                    <td class="fw-bold">8,07,56,000 </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -957,9 +1025,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">YSR Aasara</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 57,549</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 107,28,00,000</h6>
+                    <h2 class="fs-3 text-success">YSR Aasara</h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 57,549</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 107,28,00,000</h6>
                     <h4 class="text-danger">Objective of YSR Asara Scheme</h4>
                     <p class="">
                         YSR Asara is very beneficial for a woman of the state. Information and Public Relations Minister
@@ -984,33 +1052,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br />Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount <br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td> 17,769 </td>
-                                    <td>34,66,00,000</td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold"> 17,769 </td>
+                                    <td class="fw-bold">34,66,00,000</td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>6,290</td>
-                                    <td> 9,86,00,000</td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">6,290</td>
+                                    <td class="fw-bold"> 9,86,00,000</td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td> 14,790</td>
-                                    <td>27,72,00,000 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold"> 14,790</td>
+                                    <td class="fw-bold">27,72,00,000 </td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td> 18,700 </td>
-                                    <td>35,04,00,000 </td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold"> 18,700 </td>
+                                    <td class="fw-bold">35,04,00,000 </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1037,9 +1105,9 @@
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">YSR Bima</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 199</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 2,44,20,000</h6>
+                    <h2 class="fs-3 text-success">YSR Bima</h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 199</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 2,44,20,000</h6>
                     <h5>Brief objective</h5>
                     <hr />
                     <p class="">
@@ -1064,33 +1132,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br /> Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount <br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td> 88</td>
-                                    <td>88,10,000 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold"> 88</td>
+                                    <td class="fw-bold">88,10,000 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>19</td>
-                                    <td> 28,10,000 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">19</td>
+                                    <td class="fw-bold"> 28,10,000 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td> 67</td>
-                                    <td>78,00,000 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold"> 67</td>
+                                    <td class="fw-bold">78,00,000 </td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td> 25 </td>
-                                    <td>50,00,000 </td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold"> 25 </td>
+                                    <td class="fw-bold">50,00,000 </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1106,9 +1174,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">YSR Kapu Nestam</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 1,970</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 4,05,70,500</h6>
+                    <h2 class="fs-3 text-success">YSR Kapu Nestam</h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 1,970</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 4,05,70,500</h6>
                     <p class="">
                         YSR Kapu Nestam scheme is to enhance the living standards of women of Kapu, Balija, Telanga and
                         single sub castes.
@@ -1125,33 +1193,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br />Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount <br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td> 485 </td>
-                                    <td>1,18,15,500 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold"> 485 </td>
+                                    <td class="fw-bold">1,18,15,500 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>386</td>
-                                    <td> 57,90,000 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">386</td>
+                                    <td class="fw-bold"> 57,90,000 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td> 432</td>
-                                    <td>1,29,60,000 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold"> 432</td>
+                                    <td class="fw-bold">1,29,60,000 </td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td> 667 </td>
-                                    <td>1,00,05,000 </td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold"> 667 </td>
+                                    <td class="fw-bold">1,00,05,000 </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1163,7 +1231,7 @@
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/kapu.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -1178,9 +1246,9 @@
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">YSR Netanna Nestam</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 1</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 24,000</h6>
+                    <h2 class="fs-3 text-success">YSR Netanna Nestam</h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 1</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 24,000</h6>
                     <h5>Brief objective</h5>
                     <hr />
 
@@ -1197,33 +1265,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br />Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount <br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td> 0 </td>
-                                    <td>0 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold"> 0 </td>
+                                    <td class="fw-bold">0 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>0</td>
-                                    <td> 0 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">0</td>
+                                    <td class="fw-bold"> 0 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td> 0</td>
-                                    <td>0 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold"> 0</td>
+                                    <td class="fw-bold">0 </td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td> 1 </td>
-                                    <td>24,000 </td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold"> 1 </td>
+                                    <td class="fw-bold">24,000 </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1239,9 +1307,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">Jagananna Chedodu (Rajakas, Tailors & Nayee Brahmins)</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 1,720</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 2,44,60,000</h6>
+                    <h2 class="fs-3 text-success">Jagananna Chedodu (Rajakas, Tailors & Nayee Brahmins)</h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 1,720</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 2,44,60,000</h6>
                     <h5>Brief objective</h5>
                     <hr />
                     <p>It is a state governement funded welfare scheme only for tailors, washermen and Barbers of the
@@ -1261,33 +1329,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br />Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount<br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td> 376 </td>
-                                    <td>64,70,000 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold"> 376 </td>
+                                    <td class="fw-bold">64,70,000 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>418</td>
-                                    <td> 41,80,000 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">418</td>
+                                    <td class="fw-bold"> 41,80,000 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td> 455</td>
-                                    <td>91,00,000 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold"> 455</td>
+                                    <td class="fw-bold">91,00,000 </td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td> 471 </td>
-                                    <td>47,10,000 </td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold"> 471 </td>
+                                    <td class="fw-bold">47,10,000 </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1310,13 +1378,13 @@
             <div class="row">
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/law.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">YSR Law Nestham</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 15</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 2,25,000</h6>
+                    <h2 class="fs-3 text-success">YSR Law Nestham</h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 15</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 2,25,000</h6>
                     <p class="">
                         The government has launched the YSR Law Nestham during December 2019 to provide financial
                         assistance of Rs 5,000 per month as a stipend to Junior lawyers.
@@ -1330,33 +1398,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br />Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount <br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td> 7 </td>
-                                    <td>1,05,000 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold"> 7 </td>
+                                    <td class="fw-bold">1,05,000 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>1</td>
-                                    <td>15,000 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">1</td>
+                                    <td class="fw-bold">15,000 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td> 4</td>
-                                    <td>60,000 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold"> 4</td>
+                                    <td class="fw-bold">60,000 </td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td> 3 </td>
-                                    <td>45,000 </td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold"> 3 </td>
+                                    <td class="fw-bold">45,000 </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1372,9 +1440,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">YSR Vahana Mitra</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 2,388</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 3,06,53,000</h6>
+                    <h2 class="fs-3 text-success">YSR Vahana Mitra</h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 2,388</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 3,06,53,000</h6>
                     <h5>Brief objective</h5>
                     <hr />
                     <p class="">
@@ -1392,33 +1460,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br />Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount<br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td> 488 </td>
-                                    <td>95,33,000 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold"> 488 </td>
+                                    <td class="fw-bold">95,33,000 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>634</td>
-                                    <td>63,40,000 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">634</td>
+                                    <td class="fw-bold">63,40,000 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td> 606</td>
-                                    <td>81,80,000 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold"> 606</td>
+                                    <td class="fw-bold">81,80,000 </td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td> 660 </td>
-                                    <td>66,00,000 </td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold"> 660 </td>
+                                    <td class="fw-bold">66,00,000 </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1445,9 +1513,9 @@
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">Dr.YSR Arogya Asara</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 10,950</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 5,59,80,000</h6>
+                    <h2 class="fs-3 text-success">Dr.YSR Arogya Asara</h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 10,950</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 5,59,80,000</h6>
                     <h5>Brief objective</h5>
                     <hr />
                     <p class="">
@@ -1474,33 +1542,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br /> Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount <br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td>1,938</td>
-                                    <td>1,01,30,000</td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold">1,938</td>
+                                    <td class="fw-bold">1,01,30,000</td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>4,555</td>
-                                    <td>2,29,60,000 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">4,555</td>
+                                    <td class="fw-bold">2,29,60,000 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td>1,769</td>
-                                    <td>93,80,000</td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold">1,769</td>
+                                    <td class="fw-bold">93,80,000</td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td>2,688</td>
-                                    <td>1,35,10,000</td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold">2,688</td>
+                                    <td class="fw-bold">1,35,10,000</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1516,9 +1584,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">MSME Restart (YSR Navodayam Scheme)</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 8</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 22,73,234</h6>
+                    <h2 class="fs-3 text-success">MSME Restart (YSR Navodayam Scheme)</h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 8</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 22,73,234</h6>
                     <h5>Brief objective</h5>
                     <hr />
                     <p class="">
@@ -1539,33 +1607,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br /> Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount <br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td> 0 </td>
-                                    <td>0 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold"> 0 </td>
+                                    <td class="fw-bold">0 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>8</td>
-                                    <td> 22,73,234 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">8</td>
+                                    <td class="fw-bold"> 22,73,234 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td> 0</td>
-                                    <td>0 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold"> 0</td>
+                                    <td class="fw-bold">0 </td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td> 0 </td>
-                                    <td>0 </td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold"> 0 </td>
+                                    <td class="fw-bold">0 </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1577,7 +1645,7 @@
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/navod.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -1592,41 +1660,41 @@
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">One time Financial Assistance to Archakas/ Imams/ Mouzams /Pastors</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 255</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 12,70,000</h6>
+                    <h2 class="fs-3 text-success">One time Financial Assistance to Archakas/ Imams/ Mouzams /Pastors</h2>
+                    <h6 class="text-danger">Total No of  Beneficiaries : 255</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 12,70,000</h6>
 
                     <div class="table-responsive py-3 py-md-3">
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger">Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br />Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount <br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td> 77 </td>
-                                    <td>3,80,000 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold"> 77 </td>
+                                    <td class="fw-bold">3,80,000 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>49</td>
-                                    <td> 2,45,000 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">49</td>
+                                    <td class="fw-bold"> 2,45,000 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td> 50</td>
-                                    <td>2,50,000 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold"> 50</td>
+                                    <td class="fw-bold">2,50,000 </td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td> 79 </td>
-                                    <td>3,95,000 </td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold"> 79 </td>
+                                    <td class="fw-bold">3,95,000 </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1642,9 +1710,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">Dr. YSR Arogya Sri</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries 26,218</h6>
-					<h6 class="text-center text-primary">Total Benefitted Amount (In Rupees) : 49,51,63,821</h6>
+                    <h2 class="fs-3 text-success">Dr. YSR Arogya Sri</h2>
+                    <h6 class="text-danger">Total No of Beneficiaries 26,218</h6>
+                    <h6 class="text-danger">Total Benefitted Amount (In Rupees) : 49,51,63,821</h6>
                     <p class="">
                         Dr YSR Aarogyasri Health Care Trust manages the Aarogyasri Scheme, which is a state-run
                         healthcare programme. Financially challenged individuals in society can benefit greatly from the
@@ -1675,33 +1743,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br /> Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount <br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td>4,724</td>
-                                    <td>9,28,38,729</td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold">4,724</td>
+                                    <td class="fw-bold">9,28,38,729</td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>11,013</td>
-                                    <td> 20,33,99,128 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">11,013</td>
+                                    <td class="fw-bold"> 20,33,99,128 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td>4,376</td>
-                                    <td>8,38,70,920</td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold">4,376</td>
+                                    <td class="fw-bold">8,38,70,920</td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td>6,105</td>
-                                    <td>11,50,55,044</td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold">6,105</td>
+                                    <td class="fw-bold">11,50,55,044</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1724,13 +1792,13 @@
             <div class="row">
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/schemes/Jagananna-thodu.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">Jagananna Thodu</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 4,054</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 5,57,98,000</h6>
+                    <h2 class="fs-3 text-success">Jagananna Thodu</h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 4,054</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 5,57,98,000</h6>
                     <p class="">
                         The AP government's 'Jagannanna Thodu' scheme seeks to help small traders who are struggling
                         with high interest rates.
@@ -1743,33 +1811,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br />Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount<br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td> 1,599 </td>
-                                    <td>1,89,88,000 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold"> 1,599 </td>
+                                    <td class="fw-bold">1,89,88,000 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>664</td>
-                                    <td> 66,40,000 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">664</td>
+                                    <td class="fw-bold"> 66,40,000 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td> 1,226</td>
-                                    <td>2,45,20,000 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold"> 1,226</td>
+                                    <td class="fw-bold">2,45,20,000 </td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td> 565 </td>
-                                    <td>56,50,000 </td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold"> 565 </td>
+                                    <td class="fw-bold">56,50,000 </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1785,9 +1853,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">Jagananna Gorumudda</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 40,786</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 2,36,33,641</h6>
+                    <h2 class="fs-3 text-success">Jagananna Gorumudda</h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 40,786</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 2,36,33,641</h6>
                     <p class="">
                         PM Poshan (MDM) is implemented in the State from January 2003 for the children of classes I to
                         V. it was extended to class I-VIII from 2008. Extended to the children of classes IX and X with
@@ -1806,33 +1874,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br />Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount <br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td>16,082 </td>
-                                    <td>1,21,06,000 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold">16,082 </td>
+                                    <td class="fw-bold">1,21,06,000 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>4,865</td>
-                                    <td>88,79,841 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">4,865</td>
+                                    <td class="fw-bold">88,79,841 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td>10,861</td>
-                                    <td>21,10,800 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold">10,861</td>
+                                    <td class="fw-bold">21,10,800 </td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td>8,978 </td>
-                                    <td>5,37,000 </td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold">8,978 </td>
+                                    <td class="fw-bold">5,37,000 </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1844,7 +1912,7 @@
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/schemes/gorumudda.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -1859,9 +1927,9 @@
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">YSR Sampoorna Poshana</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 15,238</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 16,76,12,696</h6>
+                    <h2 class="fs-3 text-success">YSR Sampoorna Poshana</h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 15,238</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 16,76,12,696</h6>
                     <p class="">
                         Government of Andhra Pradesh is committed to ensure access to supplementary nutrition for all
                         pregnant women, lactating mothers, children aged 7-72 months through Anganwadi Centres and
@@ -1886,33 +1954,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br /> Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount <br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td> 4,437 </td>
-                                    <td>34,00,740 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold"> 4,437 </td>
+                                    <td class="fw-bold">34,00,740 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>2,064</td>
-                                    <td> 3,33,42,548 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">2,064</td>
+                                    <td class="fw-bold"> 3,33,42,548 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td> 3,372</td>
-                                    <td>5,14,49,408 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold"> 3,372</td>
+                                    <td class="fw-bold">5,14,49,408 </td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td> 5,365 </td>
-                                    <td>7,94,20,000 </td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold"> 5,365 </td>
+                                    <td class="fw-bold">7,94,20,000 </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1928,9 +1996,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">Jagananna Vidya Kanuka</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 34,390</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 5,49,18,100</h6>
+                    <h2 class="fs-3 text-success">Jagananna Vidya Kanuka</h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 34,390</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 5,49,18,100</h6>
                     <h5>Brief objective</h5>
                     <hr />
                     <p>The government provides three pairs of uniforms, set of notebooks, text books, a pair of shoes
@@ -1951,33 +2019,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br />Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount <br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td>11,024 </td>
-                                    <td>1,48,42,000 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold">11,024 </td>
+                                    <td class="fw-bold">1,48,42,000 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>3,160</td>
-                                    <td> 1,27,98,000 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">3,160</td>
+                                    <td class="fw-bold"> 1,27,98,000 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td>10,861</td>
-                                    <td>1,46,62,350 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold">10,861</td>
+                                    <td class="fw-bold">1,46,62,350 </td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td>9,345 </td>
-                                    <td>126,15,750 </td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold">9,345 </td>
+                                    <td class="fw-bold">126,15,750 </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1989,7 +2057,7 @@
                 </div>
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/schemes/vidya1.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -2004,9 +2072,9 @@
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">EBC Nestham</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 2,140</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 3,21,00,000</h6>
+                    <h2 class="fs-3 text-success">EBC Nestham</h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 2,140</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 3,21,00,000</h6>
                     <p class="">
                         The upper-caste women candidates who belong to the community of Hindus and are economically
                         unstable will be held through the scheme of YSR EBC Nestham 2022. These women will be receiving
@@ -2019,33 +2087,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br />Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount <br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td>748 </td>
-                                    <td>1,12,20,000 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold">748 </td>
+                                    <td class="fw-bold">1,12,20,000 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>91</td>
-                                    <td>13,65,000 </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">91</td>
+                                    <td class="fw-bold">13,65,000 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td>296</td>
-                                    <td>44,40,000 </td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold">296</td>
+                                    <td class="fw-bold">44,40,000 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedavegi</td>
-                                    <td>1,005 </td>
-                                    <td>1,50,75,000 </td>
+                                    <td class="fw-bold">Pedavegi</td>
+                                    <td class="fw-bold">1,005 </td>
+                                    <td class="fw-bold">1,50,75,000 </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -2061,9 +2129,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">YSR Jala Kala </h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 167</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 3,08,56,766</h6>
+                    <h2 class="fs-3 text-success">YSR Jala Kala </h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 167</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 3,08,56,766</h6>
                     <h4 class="text-center">Salient Features of YSR Jala Kala Programme</h4>
                     <ol type="1" class="">
                         <li>Under YSR Jala Kala programme of NAVARATNALU, Government have decided to drill free
@@ -2109,33 +2177,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br />Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount <br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td>48 </td>
-                                    <td>40,00,000 </td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold">48 </td>
+                                    <td class="fw-bold">40,00,000 </td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>0</td>
-                                    <td>0   </td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">0</td>
+                                    <td class="fw-bold">0 </td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td>75</td>
-                                    <td>1,27,76,766</td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold">75</td>
+                                    <td class="fw-bold">1,27,76,766</td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td>44 </td>
-                                    <td>1,40,80,000</td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold">44 </td>
+                                    <td class="fw-bold">1,40,80,000</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -2158,13 +2226,13 @@
             <div class="row">
                 <div class="col-md-4 align-self-center">
                     <div class="text-center">
-                        <img src="{{asset('assets/images/temp.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('assets/images/cmrf.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
-                    <h2 class="fs-3">CMRF & LOC</h2>
-                    <h6 class="text-primary">Total No of Beneficiaries : 639</h6>
-                    <h6 class="text-primary">Benefitted Amount (In Rupees) : 4,56,98,100</h6>
+                    <h2 class="fs-3 text-success">CMRF & LOC</h2>
+                    <h6 class="text-danger">Total No of Beneficiaries : 639</h6>
+                    <h6 class="text-danger">Benefitted Amount (In Rupees) : 4,56,98,100</h6>
                     <p class="">
                         The upper-caste women candidates who belong to the community of Hindus and are economically
                         unstable will be held through the scheme of YSR EBC Nestham 2022. These women will be receiving
@@ -2177,33 +2245,33 @@
                         <table class="table-bordered text-center">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="text-center"> Mandal</th>
+                                    <th scope="col" class="text-center text-danger"> Mandal</th>
 
-                                    <th scope="col" class="text-center">No of Beneficiaries</th>
-                                    <th scope="col">Benefitted Amount(In Rupees)</th>
+                                    <th scope="col" class="text-center text-danger">No of <br />Beneficiaries</th>
+                                    <th scope="col" class="text-center text-danger">Benefitted Amount <br />(In Rupees)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Denduluru</td>
-                                    <td>132</td>
-                                    <td>1,05,42,500</td>
+                                    <td class="fw-bold">Denduluru</td>
+                                    <td class="fw-bold">132</td>
+                                    <td class="fw-bold">1,05,42,500</td>
 
                                 </tr>
                                 <tr>
-                                    <td>Eluru</td>
-                                    <td>82</td>
-                                    <td>56,82,100</td>
+                                    <td class="fw-bold">Eluru</td>
+                                    <td class="fw-bold">82</td>
+                                    <td class="fw-bold">56,82,100</td>
                                 </tr>
                                 <tr>
-                                    <td>Pedapadu</td>
-                                    <td>170</td>
-                                    <td>1,02,24,500</td>
+                                    <td class="fw-bold">Pedapadu</td>
+                                    <td class="fw-bold">170</td>
+                                    <td class="fw-bold">1,02,24,500</td>
                                 </tr>
                                 <tr>
-                                    <td> Pedavegi</td>
-                                    <td>255</td>
-                                    <td>1,92,49,000</td>
+                                    <td class="fw-bold"> Pedavegi</td>
+                                    <td class="fw-bold">255</td>
+                                    <td class="fw-bold">1,92,49,000</td>
                                 </tr>
                             </tbody>
                         </table>

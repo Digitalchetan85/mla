@@ -1,14 +1,14 @@
 <div>
-    <div id="section-header" class="py-3 py-md-5 bg-light">
+    <div id="section-header" class="py-2 py-md-2 bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="border-start border-primary border-5">
-                        <h2 class="fs-3 ms-3 text-primary">Skill Up Denduluru</h2>
+                        <h2 class="fs-3 ms-3 text-success">Skill Up Denduluru</h2>
                         <nav aria-label="breadcrumb" class="ms-3">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{route('home')}}">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">My Constituency</a></li>
+                                <li class="breadcrumb-item"><a href="{{route('home')}}" class="text-success text-decoration-none">Home</a></li>
+                                <li class="breadcrumb-item"><a href="#"class="text-success text-decoration-none">My Constituency</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Skill Up Denduluru</li>
                             </ol>
                         </nav>
@@ -21,8 +21,10 @@
     <div id="register" class="py-3 py-md-5">
         <div class="container">
             <div class="row justify-content-center">
+            <h2 class="fs-3 ms-3 text-center text-success">Skill Up Denduluru</h2>
                 <div class="col-md-12 align-self-center">
-                    <p class="text-center">SkillUp denduluru is a program designed by Abbaya chowdary, MLA- Denduluru to
+
+                    <p class="fw-bold">SkillUp denduluru is a program designed by Abbaya chowdary, MLA- Denduluru to
                         train the youth on the required technologies as per industry trends and assist them on getting
                         the job</p>
                 </div>
@@ -78,10 +80,12 @@
                                         <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
                                                 class="fa fa-building text-white"></i></span>
                                         <select class="form-select" aria-label="Default select example">
-                                            <option selected>--Mandalam--</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
+                                        <option selected>--Mandal--</option>
+                                                    <option value="1">Denduluru</option>
+                                                    <option value="2">Eluru</option>
+                                                    <option value="3">Pedapadu</option>
+                                                    <option value="4">Pedavegi</option>
+                                                    <option value="5">Others</option>
                                         </select>
                                     </div>
                                 </div>
@@ -148,7 +152,7 @@
                                         <span class="input-group-text me-1 bg-primary" id="basic-addon1"><i
                                                 class="fa fa-building text-white"></i></span>
                                         <select class="form-select" aria-label="Default select example">
-                                            <option selected>--Mandalam--</option>
+                                            <option selected>--Qualification--</option>
                                             <option value="1">Degree</option>
                                             <option value="2">Engineering</option>
                                             <option value="3">Other</option>
@@ -220,7 +224,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row mb-3">
+                            <div class="row mb-3 ms-3">
                                 <div class="col-md-4">
                                     <button type="button" class="btn btn-primary form-control">Submit</button>
                                 </div>

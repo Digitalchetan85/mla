@@ -23,7 +23,7 @@
   <header class="header-transparent">
     <nav class="navbar navbar-expand-lg navbar-light bg-transparant">
       <div class="container">
-        <a class="navbar-brand text-white text-uppercase fw-bold" href="{{route('home')}}"><img class="img-fluid" src="{{asset('assets/images/new.png')}}" alt=""></a>
+        <a class="navbar-brand text-white text-uppercase fw-bold" href="{{route('home')}}"><img class="img-fluid" src="{{asset('assets/images/sticker1.png')}}" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
           aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -31,13 +31,12 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ms-auto mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="{{route('home')}}">Home <br> <span class="sub">Main
-                  Page</span></a>
+              <a class="nav-link active" aria-current="page" href="{{route('home')}}">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown"
                 data-hover="dropdown" data-delay="1000" data-close-others="false">
-                My Constituency <br> <span class="sub">Get More Details</span>
+                My Constituency</span>
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" tabindex="-1" href="{{route('development')}}">Development Activities</a></li>
@@ -50,7 +49,7 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
-                Events <br> <span class="sub">Ongoing Events</span>
+                Events</span>
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="{{route('goodmorning')}}">GADAPA GADAPAKU MANA PRABHUTVAM </a></li>
@@ -67,7 +66,7 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
-                Get In Touch <br> <span class="sub">Contact Us</span>
+                Get In Touch</span>
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 {{-- <li><a class="dropdown-item" href="{{route('contact')}}">Contact</a></li>
@@ -100,7 +99,7 @@
       <div class="row g-3">
         <div class="col-md-12">
           <div class="text-center">
-            <img src="{{asset('assets/images/logo.png')}}" alt="" class="img-fluid">
+            <img src="{{asset('assets/images/sticker1.png')}}" alt="" class="img-fluid">
             
             {{-- <a href="#" class="text-white text-decoration-none"><i
                 class="fa fa-phone-volume text-white me-2"></i>+91 </a> --}}
