@@ -79,8 +79,8 @@
           </ul>
           <div class="d-flex">
           <a href="https://m.facebook.com/kotaru9999" class="text-decoration-none tex-white" target="_blank"><i class="fa-brands fa-facebook-f text-white me-3 fs-4"></i></a>
-          <a href="https://twitter.com/AbbayaChowdary" class="text-decoration-none tex-white" target="_blank"><i class="fa-brands fa-twitter text-white me-3 fs-4"></i></a>
-          <a href="https://youtube.com/channel/UC6odSmHbX9fgBVBgWdZmJLQ" class="text-decoration-none tex-white" target="_blank"><i class="fa-brands fa-youtube text-danger me-3 fs-4"></i></a>
+          <a href="https://twitter.com/AbbayaChowdary" class="text-decoration-none text-white" target="_blank"><i class="fa-brands fa-twitter text-white me-3 fs-4"></i></a>
+          <a href="https://youtube.com/channel/UC6odSmHbX9fgBVBgWdZmJLQ" class="text-decoration-none tex-white" target="_blank"><i class="fa-brands fa-youtube text-white me-3 fs-4"></i></a>
           <a href="https://www.instagram.com/kotaruabbayachowdary/?igshid=YmMyMTA2M2Y=" class="text-decoration-none tex-white" target="_blank"><i class="fa-brands fa-instagram text-white me-3 fs-4"></i></a>
           </div>
         </div>
