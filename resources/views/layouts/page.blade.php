@@ -75,10 +75,10 @@
             </li>
             </ul>
             <div class="d-flex">
-              <a href="https://m.facebook.com/kotaru9999" class="text-decoration-none"><i class="fa-brands fa-facebook-f text-white me-3 fs-4"></i></a>
-              <a href="https://twitter.com/AbbayaChowdary"><i class="fa-brands fa-twitter text-white me-3 fs-4"></i></a>
-              <a href="https://youtube.com/channel/UC6odSmHbX9fgBVBgWdZmJLQ"> <i class="fa-brands fa-youtube text-white me-3 fs-4"></i></a>
-              <a href="https://www.instagram.com/kotaruabbayachowdary/?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram text-white me-2 fs-4"></i></a>
+              <a href="https://m.facebook.com/kotaru9999" class="text-decoration-none" target="_blank"><i class="fa-brands fa-facebook-f text-white me-3 fs-4"></i></a>
+              <a href="https://twitter.com/AbbayaChowdary" target="_blank"><i class="fa-brands fa-twitter text-white me-3 fs-4"></i></a>
+              <a href="https://youtube.com/channel/UC6odSmHbX9fgBVBgWdZmJLQ" target="_blank"> <i class="fa-brands fa-youtube text-white me-3 fs-4" ></i></a>
+              <a href="https://www.instagram.com/kotaruabbayachowdary/?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa-brands fa-instagram text-white me-2 fs-4" ></i></a>
             </div>
           </div>
         </div>
@@ -112,7 +112,7 @@
         <div class="col-md-4 align-self-center">
           <div class="d-flex justify-content-center custom1">
             <div>
-              <a href="tel:0881251199" class="text-white text-decoration-none"><i class="fa fa-phone-volume text-white me-2"></i>+91 08812-51199</a>
+              <a href="tel:0881251199" class="text-white text-decoration-none"><i class="fa fa-phone-volume text-white me-2"></i>+91 8812-51199</a>
             </div>
           </div>
         </div>
@@ -182,10 +182,10 @@
         </div>
         <div class="col-md-4">
           <div class="text-center text-md-end">
-            <a href="https://m.facebook.com/kotaru9999" class="text-decoration-none tex-white"><i class="fa-brands fa-facebook-f text-white ms-2 border rounded p-1 mt-2"></i></a>
-            <a href="https://twitter.com/AbbayaChowdary" class="text-decoration-none tex-white"><i class="fa-brands fa-twitter text-white ms-2 border rounded p-1 mt-2"></i></a>
-            <a href="https://youtube.com/channel/UC6odSmHbX9fgBVBgWdZmJLQ" class="text-decoration-none tex-white"> <i class="fa-brands fa-youtube text-white ms-2 border rounded p-1 mt-2"></i></a>
-            <a href="https://www.instagram.com/kotaruabbayachowdary/?igshid=YmMyMTA2M2Y=" class="text-decoration-none tex-white"> <i class="fa-brands fa-instagram text-white ms-2 border rounded p-1 mt-2"></i></a>
+            <a href="https://m.facebook.com/kotaru9999" class="text-decoration-none tex-white" target="_blank"><i class="fa-brands fa-facebook-f text-white ms-2 border rounded p-1 mt-2"></i></a>
+            <a href="https://twitter.com/AbbayaChowdary" class="text-decoration-none tex-white" target="_blank"><i class="fa-brands fa-twitter text-white ms-2 border rounded p-1 mt-2"></i></a>
+            <a href="https://youtube.com/channel/UC6odSmHbX9fgBVBgWdZmJLQ" class="text-decoration-none tex-white" target="_blank"> <i class="fa-brands fa-youtube text-white ms-2 border rounded p-1 mt-2"></i></a>
+            <a href="https://www.instagram.com/kotaruabbayachowdary/?igshid=YmMyMTA2M2Y=" class="text-decoration-none tex-white" target="_blank"> <i class="fa-brands fa-instagram text-white ms-2 border rounded p-1 mt-2"></i></a>
           </div>
         </div>
       </div>

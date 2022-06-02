@@ -271,7 +271,7 @@
                             <div class="text-center">
                                 <h5 class="text-center text-success">One time Financial Assistance to Archakas/ Imams/
                                     Mouzams /Pastors</h5>
-                                <img class="img-fulid mb-2" src="{{asset('assets/images/test.png')}}" />
+                                <img class="img-fulid mb-2" src="{{asset('assets/images/scheme-logo/onetime.png')}}" />
                                 <h6 class="text-center text-danger">Total No of Beneficiaries : 255</h6>
                                 <h6 class="text-center text-danger">Total Benefitted Amount (In Rupees) : 12,70,000</h6>
                             </div>
