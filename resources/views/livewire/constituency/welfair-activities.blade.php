@@ -7,8 +7,8 @@
                         <h2 class="fs-3 text-success ms-3 text-primary">Welfare Activities</h2>
                         <nav aria-label="breadcrumb" class="ms-3">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{route('home')}}">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">My Constituency</a></li>
+                                <li class="breadcrumb-item"><a href="{{route('home')}}" class="text-success text-decoration-none">Home</a></li>
+                                <li class="breadcrumb-item"><a href="#" class="text-success text-decoration-none">My Constituency</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Welfare Activities</li>
                             </ol>
                         </nav>

@@ -8,7 +8,7 @@
                         <nav aria-label="breadcrumb" class="ms-3">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="{{route('home')}}" class="text-success text-decoration-none">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#"class="text-success text-decoration-none">My Constituency</a></li>
+                                <li class="breadcrumb-item"><a href="#"class="text-success text-decoration-none">Events</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Skill Up Denduluru</li>
                             </ol>
                         </nav>

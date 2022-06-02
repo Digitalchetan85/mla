@@ -7,8 +7,8 @@
                         <h2 class="fs-3 ms-3 text-success">Development Activities</h2>
                         <nav aria-label="breadcrumb" class="ms-3">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{route('home')}}">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">My Constituency</a></li>
+                                <li class="breadcrumb-item"><a href="{{route('home')}}" class="text-success text-decoration-none">Home</a></li>
+                                <li class="breadcrumb-item"><a href="#" class="text-success text-decoration-none">My Constituency</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Development Activities</li>
                             </ol>
                         </nav>
@@ -481,11 +481,11 @@
                             Government of Andhra Pradesh considers the school as a divine place and wants to promote the
                             school as a true learning center to the children. The Government desires to improve the learning
                             outcomes and decrease the dropout rate in all schools by taking up various measures including
-                            upgrading the school infrastructure through the implementation of Mana Badi - Nadu Nedu Program.
+                            upgrading the school infrastructure through the implementation of <strong>Mana Badi - Nadu Nedu Program</strong>.
                             The Government wants to develop the school infrastructure in the state in a systematic manner to
                             reach the required standards by involving the parents who are the key stakeholders.
                         </li>
-                        <li>Mana Badi – Nadu Nedu is to strengthen the infrastructure and transform the existing
+                        <li><strong>Mana Badi – Nadu Nedu </strong> to strengthen the infrastructure and transform the existing
                             infrastructure of the schools in the mission mode in a phased manner over a period of three
                             years, starting from 2019-20. Under Mana Badi – Nadu Nedu program, following 9 infrastructure
                             components have been taken up.
